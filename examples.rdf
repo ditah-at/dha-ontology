@@ -47,7 +47,8 @@
             </dha:NamedEntity>
         </dha:hasAnnotationDescription>
         <dha:hasDisseminationDescription rdf:parseType="Resource">
-            <premis:hasIdentifier>http://digitale-edition.at/o:obj.1</premis:hasIdentifier>> <dha:conformsTo rdf:resource="&dha;/service/api/get"/>
+            <premis:hasIdentifier>http://digitale-edition.at/o:obj.1</premis:hasIdentifier>
+            <dha:conformsTo rdf:resource="&dha;/service/api/get"/>
             <dha:hasMimeType rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
         </dha:hasDisseminationDescription>
         <dha:hasDisseminationService rdf:parseType="Resource">
