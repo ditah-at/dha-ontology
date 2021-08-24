@@ -1,0 +1,2444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:dha="https://digital-humanities.at/schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:premis="http://www.loc.gov/premis/rdf/v1#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+	<dha:RepoCollection>
+		<dha:hasMetadataDescription rdf:parseType="Resource">
+			<dc:title xml:lang="en">travel!digital Collection</dc:title>
+			<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29F3-4</dc:identifier>
+			<dc:identifier>https://arche.acdh.oeaw.ac.at/api/19641</dc:identifier>
+			<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/479793f9-9e6b-c5f4-debf-f929d6860966
+</dc:identifier>
+			<dc:identifier>https://id.acdh.oeaw.ac.at/traveldigital</dc:identifier>
+			<dc:contributor>Victoria Eisenheld</dc:contributor>
+			<dc:contributor>Daniel Schopper</dc:contributor>
+			<dc:contributor>Laura Lanig</dc:contributor>
+			<dc:creator>Barbara Krautgartner</dc:creator>
+			<dc:creator>Ulrike Czeitschner</dc:creator>
+		</dha:hasMetadataDescription>
+		<dha:hasPreservationDescription rdf:parseType="Resource">
+			<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29F3-4</premis:hasIdentifier>
+			<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+		</dha:hasPreservationDescription>
+		<dha:hasPart>
+			<rdf:Description>
+				<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+				<dha:hasMetadataDescription rdf:parseType="Resource">
+					<dc:title xml:lang="en">travel!digital Thesaurus</dc:title>
+					<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29F5-2</dc:identifier>
+					<dc:identifier>https://id.acdh.oeaw.ac.at/traveldigital/Thesaurus</dc:identifier>
+					<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/cc7159e1-b6dd-ca6e-f59c-88f7889cf12f
+</dc:identifier>
+					<dc:identifier>https://arche.acdh.oeaw.ac.at/api/21203</dc:identifier>
+					<dc:creator>Ulrike Czeitschner</dc:creator>
+				</dha:hasMetadataDescription>
+				<dha:hasPreservationDescription rdf:parseType="Resource">
+					<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29F5-2</premis:hasIdentifier>
+					<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+				</dha:hasPreservationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+						<dha:hasIdentifier rdf:parseType="Resource"/>
+						<dha:hasISODate>/</dha:hasISODate>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:basedOn>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">
+Karl Baedeker: Nordamerika. Handbuch für Reisende: Digital Edition
+</dc:title>
+							<dc:title xml:lang="de">
+Karl Baedeker: Nordamerika. Handbuch für Reisende: Digitale Ausgabe
+</dc:title>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Nordamerika_1893.xml
+</dc:identifier>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/cmdi/47548</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/c78660e9-f3c7-c7d1-ccd0-015dee273b98
+</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-35D3-A</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/47548</dc:identifier>
+							<dc:creator>Victoria Eisenheld</dc:creator>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+							<dc:creator>Barbara Krautgartner</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35D3-A</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1893-01-01T00:00:00/1893-01-01T00:00:00</dha:hasISODate>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
+						<dha:hasType>
+https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
+</dha:hasType>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Nordamerika</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">North America</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/862</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/6255149</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-northamerica</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/862/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:basedOn>
+				<dha:basedOn>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">
+Karl Baedeker: Das Mittelmeer. Handbuch für Reisende: Digital Edition
+</dc:title>
+							<dc:title xml:lang="de">
+Karl Baedeker: Das Mittelmeer. Handbuch für Reisende: Digitale Ausgabe
+</dc:title>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/cmdi/29688</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-35D2-B</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/29688</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Mittelmeer_1909.xml
+</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/10a481c7-fc13-7d83-d2c5-b88dd4a3dc6b
+</dc:identifier>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+							<dc:creator>Victoria Eisenheld</dc:creator>
+							<dc:creator>Barbara Krautgartner</dc:creator>
+							<dc:creator>Laura Lanig</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35D2-B</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1909-01-01T00:00:00/1909-01-01T00:00:00</dha:hasISODate>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
+						<dha:hasType>
+https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
+</dha:hasType>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="en">Mediterranean Sea</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="de">Mittelmeer</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-mediterraneansea</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/32349</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/363196</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/32349/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:basedOn>
+				<dha:basedOn>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">
+Karl Baedeker: Indien. Handbuch für Reisende: Digital Edition
+</dc:title>
+							<dc:title xml:lang="de">
+Karl Baedeker: Indien. Handbuch für Reisende: Digitale Ausgabe
+</dc:title>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Indien_1914.xml
+</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/2732</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-35D0-D</dc:identifier>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/cmdi/2732</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/665b247c-8b69-492f-db79-b0aee34e7cf5
+</dc:identifier>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+							<dc:creator>Barbara Krautgartner</dc:creator>
+							<dc:creator>Victoria Eisenheld</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35D0-D</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1914-01-01T00:00:00/1914-01-01T00:00:00</dha:hasISODate>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
+						<dha:hasType>
+https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
+</dha:hasType>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Indien</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">India</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://www.geonames.org/1269750</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/25486</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-india</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/25486/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:basedOn>
+				<dha:basedOn>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">
+Karl Baedeker: Palästina und Syrien. Handbuch für Reisende: Digital Edition
+</dc:title>
+							<dc:title xml:lang="de">
+Karl Baedeker: Palästina und Syrien. Handbuch für Reisende: Digitale Ausgabe
+</dc:title>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/cmdi/2730</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/cc3e9a92-5638-df47-82fc-b6b3fbd9017e
+</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-35D4-9</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Palaestina_und_Syrien_1875.xml
+</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/2730</dc:identifier>
+							<dc:creator>Barbara Krautgartner</dc:creator>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+							<dc:creator>Victoria Eisenheld</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35D4-9</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1875-01-01T00:00:00/1875-01-01T00:00:00</dha:hasISODate>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
+						<dha:hasType>
+https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
+</dha:hasType>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="en">Syria</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="de">Syrien</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-syria</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/163843</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35780</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35780/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Palestina</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">Palestine</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://www.geonames.org/6254930</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/4246560</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/38487</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-palestine</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/38487/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:basedOn>
+				<dha:basedOn>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">
+Karl Baedeker: Konstantinopel und Kleinasien. Handbuch für Reisende: Digital Edition
+</dc:title>
+							<dc:title xml:lang="de">
+Karl Baedeker: Konstantinopel und Kleinasien. Handbuch für Reisende: Digitale Ausgabe
+</dc:title>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/30e87910-d3de-f9fb-e222-52330396cc96
+</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Konstantinopel_und_Kleinasien_1905.xml
+</dc:identifier>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/cmdi/8420</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/8420</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-35D1-C</dc:identifier>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+							<dc:creator>Barbara Krautgartner</dc:creator>
+							<dc:creator>Victoria Eisenheld</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35D1-C</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1905-01-01T00:00:00/1905-01-01T00:00:00</dha:hasISODate>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
+						<dha:hasType>
+https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
+</dha:hasType>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Kleinasien</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">Asia Minor</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://pleiades.stoa.org/places/837</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/39249</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-asiaminor</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/39249/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Konstantinopel</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">Constantinople</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/22510</premis:hasIdentifier>
+									<premis:hasIdentifier>https://pleiades.stoa.org/places/520985</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-constantinople</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/22510/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:basedOn>
+				<dha:basedOn>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">travel!digital Corpus</dc:title>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/14006</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29F7-0</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/268e2e95-d387-f53d-a4ca-041ece2c2f0c
+</dc:identifier>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/traveldigital/Corpus</dc:identifier>
+							<dc:creator>Barbara Krautgartner</dc:creator>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+							<dc:creator>Victoria Eisenheld</dc:creator>
+							<dc:creator>Laura Lanig</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29F7-0</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1875-01-01T00:00:00/1914-01-01T00:00:00</dha:hasISODate>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Nordamerika</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">North America</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/862</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/6255149</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-northamerica</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/862/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Indien</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">India</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://www.geonames.org/1269750</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/25486</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-india</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/25486/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Palestina</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">Palestine</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://www.geonames.org/6254930</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/4246560</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/38487</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-palestine</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/38487/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="en">Syria</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="de">Syrien</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-syria</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/163843</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35780</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35780/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Konstantinopel</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">Constantinople</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/22510</premis:hasIdentifier>
+									<premis:hasIdentifier>https://pleiades.stoa.org/places/520985</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-constantinople</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/22510/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="en">Mediterranean Sea</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="de">Mittelmeer</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-mediterraneansea</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/32349</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/363196</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/32349/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Kleinasien</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">Asia Minor</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://pleiades.stoa.org/places/837</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/39249</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-asiaminor</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/39249/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:basedOn>
+				<dha:hasPart>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">travel!digital Thesaurus</dc:title>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-35CB-4</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Thesaurus/traveldigitalThesaurus.rdf
+</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/12461</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/f2cac50a-065b-576a-804a-514ee0248d31
+</dc:identifier>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35CB-4</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription>
+							<dha:Timespan>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>/</dha:hasISODate>
+							</dha:Timespan>
+						</dha:hasAnnotationDescription>
+						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48541</dha:hasType>
+						<dha:hasType>https://vocabs.acdh.oeaw.ac.at/archecategory/model</dha:hasType>
+						<dha:basedOn>
+							<rdf:Description>
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+								<dha:hasMetadataDescription rdf:parseType="Resource">
+									<dc:title xml:lang="en">travel!digital Corpus</dc:title>
+									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/14006</dc:identifier>
+									<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29F7-0</dc:identifier>
+									<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/268e2e95-d387-f53d-a4ca-041ece2c2f0c
+</dc:identifier>
+									<dc:identifier>https://id.acdh.oeaw.ac.at/traveldigital/Corpus</dc:identifier>
+									<dc:creator>Ulrike Czeitschner</dc:creator>
+									<dc:creator>Victoria Eisenheld</dc:creator>
+									<dc:creator>Barbara Krautgartner</dc:creator>
+									<dc:creator>Laura Lanig</dc:creator>
+								</dha:hasMetadataDescription>
+								<dha:hasPreservationDescription rdf:parseType="Resource">
+									<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29F7-0</premis:hasIdentifier>
+									<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+								</dha:hasPreservationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+										<dha:hasIdentifier rdf:parseType="Resource"/>
+										<dha:hasISODate>1875-01-01T00:00:00/1914-01-01T00:00:00</dha:hasISODate>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+										<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+											<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+											<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+										<dha:hasCatchPhrase xml:lang="de">Palestina</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase xml:lang="en">Palestine</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://www.geonames.org/6254930</premis:hasIdentifier>
+											<premis:hasIdentifier>https://www.geonames.org/4246560</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/38487</premis:hasIdentifier>
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-palestine</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/38487/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+										<dha:hasCatchPhrase xml:lang="en">Mediterranean Sea</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase xml:lang="de">Mittelmeer</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-mediterraneansea</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/32349</premis:hasIdentifier>
+											<premis:hasIdentifier>https://www.geonames.org/363196</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/32349/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+										<dha:hasCatchPhrase xml:lang="en">Syria</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase xml:lang="de">Syrien</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-syria</premis:hasIdentifier>
+											<premis:hasIdentifier>https://www.geonames.org/163843</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35780</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35780/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+										<dha:hasCatchPhrase xml:lang="de">Nordamerika</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase xml:lang="en">North America</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/862</premis:hasIdentifier>
+											<premis:hasIdentifier>https://www.geonames.org/6255149</premis:hasIdentifier>
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-northamerica</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/862/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+										<dha:hasCatchPhrase xml:lang="de">Indien</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase xml:lang="en">India</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://www.geonames.org/1269750</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/25486</premis:hasIdentifier>
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-india</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/25486/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+										<dha:hasCatchPhrase xml:lang="de">Kleinasien</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase xml:lang="en">Asia Minor</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://pleiades.stoa.org/places/837</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/39249</premis:hasIdentifier>
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-asiaminor</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/39249/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+										<dha:hasCatchPhrase xml:lang="de">Konstantinopel</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase xml:lang="en">Constantinople</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/22510</premis:hasIdentifier>
+											<premis:hasIdentifier>https://pleiades.stoa.org/places/520985</premis:hasIdentifier>
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-constantinople</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/22510/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+							</rdf:Description>
+						</dha:basedOn>
+					</rdf:Description>
+				</dha:hasPart>
+			</rdf:Description>
+		</dha:hasPart>
+		<dha:hasPart>
+			<rdf:Description>
+				<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+				<dha:hasMetadataDescription rdf:parseType="Resource">
+					<dc:title xml:lang="en">travel!digital Facsimiles</dc:title>
+					<dc:identifier>https://id.acdh.oeaw.ac.at/traveldigital/Images</dc:identifier>
+					<dc:identifier>https://arche.acdh.oeaw.ac.at/api/38486</dc:identifier>
+					<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29F4-3</dc:identifier>
+					<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/f8f27bc7-0915-7009-f3cb-fcb2955d0157
+</dc:identifier>
+				</dha:hasMetadataDescription>
+				<dha:hasPreservationDescription rdf:parseType="Resource">
+					<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29F4-3</premis:hasIdentifier>
+					<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
+				</dha:hasPreservationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+						<dha:hasIdentifier rdf:parseType="Resource"/>
+						<dha:hasISODate>1875-01-01T00:00:00/1914-01-01T00:00:00</dha:hasISODate>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:basedOn>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="de">
+Konstantinopel und Kleinasien. Handbuch für Reisende von Karl Bædeker.
+</dc:title>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/43996</dc:identifier>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1905</dc:identifier>
+						</dha:hasMetadataDescription>
+					</rdf:Description>
+				</dha:basedOn>
+				<dha:basedOn>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="de">
+Nordamerika. Die Vereinigten Staaten nebst einem Ausflug nach Mexiko. Handbuch für Reisende von K. Bædeker.
+</dc:title>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/41736</dc:identifier>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1893</dc:identifier>
+						</dha:hasMetadataDescription>
+					</rdf:Description>
+				</dha:basedOn>
+				<dha:basedOn>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="de">Indien. Handbuch für Reisende von Karl Bædeker.</dc:title>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/19443</dc:identifier>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1914</dc:identifier>
+						</dha:hasMetadataDescription>
+					</rdf:Description>
+				</dha:basedOn>
+				<dha:basedOn>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="de">
+Das Mittelmeer. Hafenplätze und Seewege nebst Madeira, den Kanarischen Inseln, der Küste Marokkos, Algerien und Tunesien. Handbuch für Reisende von Karl Bædeker.
+</dc:title>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/43994</dc:identifier>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1909</dc:identifier>
+						</dha:hasMetadataDescription>
+					</rdf:Description>
+				</dha:basedOn>
+				<dha:basedOn>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="de">
+Palaestina und Syrien. Handbuch für Reisende herausgegeben von K. Bædeker.
+</dc:title>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/36166</dc:identifier>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1875</dc:identifier>
+						</dha:hasMetadataDescription>
+					</rdf:Description>
+				</dha:basedOn>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+						<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+							<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+							<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+						<dha:hasCatchPhrase xml:lang="de">Konstantinopel</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase xml:lang="en">Constantinople</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/22510</premis:hasIdentifier>
+							<premis:hasIdentifier>https://pleiades.stoa.org/places/520985</premis:hasIdentifier>
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-constantinople</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/22510/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+						<dha:hasCatchPhrase xml:lang="de">Nordamerika</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase xml:lang="en">North America</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/862</premis:hasIdentifier>
+							<premis:hasIdentifier>https://www.geonames.org/6255149</premis:hasIdentifier>
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-northamerica</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/862/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+						<dha:hasCatchPhrase xml:lang="de">Indien</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase xml:lang="en">India</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://www.geonames.org/1269750</premis:hasIdentifier>
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/25486</premis:hasIdentifier>
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-india</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/25486/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+						<dha:hasCatchPhrase xml:lang="de">Palestina</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase xml:lang="en">Palestine</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://www.geonames.org/6254930</premis:hasIdentifier>
+							<premis:hasIdentifier>https://www.geonames.org/4246560</premis:hasIdentifier>
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/38487</premis:hasIdentifier>
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-palestine</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/38487/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+						<dha:hasCatchPhrase xml:lang="de">Kleinasien</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase xml:lang="en">Asia Minor</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://pleiades.stoa.org/places/837</premis:hasIdentifier>
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/39249</premis:hasIdentifier>
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-asiaminor</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/39249/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+						<dha:hasCatchPhrase xml:lang="en">Mediterranean Sea</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase xml:lang="de">Mittelmeer</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-mediterraneansea</premis:hasIdentifier>
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/32349</premis:hasIdentifier>
+							<premis:hasIdentifier>https://www.geonames.org/363196</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/32349/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+						<dha:hasCatchPhrase xml:lang="en">Syria</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase xml:lang="de">Syrien</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-syria</premis:hasIdentifier>
+							<premis:hasIdentifier>https://www.geonames.org/163843</premis:hasIdentifier>
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35780</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35780/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasPart>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">Facsimiles: Baedeker, Nordamerika 1893</dc:title>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29F9-E</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Nordamerika_1893
+</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/95ce5603-3422-4c9f-dc0e-4a3f3fc9afe2
+</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/22328</dc:identifier>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29F9-E</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription>
+							<dha:Timespan>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1893-01-01T00:00:00/1893-01-01T00:00:00</dha:hasISODate>
+							</dha:Timespan>
+						</dha:hasAnnotationDescription>
+						<dha:basedOn>
+							<rdf:Description>
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
+								<dha:hasMetadataDescription rdf:parseType="Resource">
+									<dc:title xml:lang="de">
+Nordamerika. Die Vereinigten Staaten nebst einem Ausflug nach Mexiko. Handbuch für Reisende von K. Bædeker.
+</dc:title>
+									<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1893</dc:identifier>
+									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/41736</dc:identifier>
+								</dha:hasMetadataDescription>
+							</rdf:Description>
+						</dha:basedOn>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Nordamerika</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">North America</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/862</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/6255149</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-northamerica</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/862/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:hasPart>
+				<dha:hasPart>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">Facsimiles: Baedeker, Indien 1914</dc:title>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/16c84699-2469-5ba7-d212-3fae16e6e640
+</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/34665</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Indien_1914
+</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29FB-C</dc:identifier>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29FB-C</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription>
+							<dha:Timespan>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1914-01-01T00:00:00/1914-01-01T00:00:00</dha:hasISODate>
+							</dha:Timespan>
+						</dha:hasAnnotationDescription>
+						<dha:basedOn>
+							<rdf:Description>
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
+								<dha:hasMetadataDescription rdf:parseType="Resource">
+									<dc:title xml:lang="de">Indien. Handbuch für Reisende von Karl Bædeker.</dc:title>
+									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/19443</dc:identifier>
+									<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1914</dc:identifier>
+								</dha:hasMetadataDescription>
+							</rdf:Description>
+						</dha:basedOn>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Indien</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">India</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://www.geonames.org/1269750</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/25486</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-india</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/25486/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:hasPart>
+				<dha:hasPart>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">Facsimiles: Baedeker, Mittelmeer 1909</dc:title>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29F8-F</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/3380a45c-3c81-d9a7-e258-737ff9e7d4c0
+</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/17015</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Mittelmeer_1909
+</dc:identifier>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29F8-F</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription>
+							<dha:Timespan>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1909-01-01T00:00:00/1909-01-01T00:00:00</dha:hasISODate>
+							</dha:Timespan>
+						</dha:hasAnnotationDescription>
+						<dha:basedOn>
+							<rdf:Description>
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
+								<dha:hasMetadataDescription rdf:parseType="Resource">
+									<dc:title xml:lang="de">
+Das Mittelmeer. Hafenplätze und Seewege nebst Madeira, den Kanarischen Inseln, der Küste Marokkos, Algerien und Tunesien. Handbuch für Reisende von Karl Bædeker.
+</dc:title>
+									<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1909</dc:identifier>
+									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/43994</dc:identifier>
+								</dha:hasMetadataDescription>
+							</rdf:Description>
+						</dha:basedOn>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="en">Mediterranean Sea</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="de">Mittelmeer</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-mediterraneansea</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/32349</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/363196</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/32349/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:hasPart>
+				<dha:hasPart>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">Facsimiles: Baedeker, Palästina und Syrien 1875</dc:title>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/32346</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29FA-D</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Palaestina_und_Syrien_1875
+</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/700bdc2f-2ffb-cfb5-82c8-5d8af2436c79
+</dc:identifier>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29FA-D</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription>
+							<dha:Timespan>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1875-01-01T00:00:00/1875-01-01T00:00:00</dha:hasISODate>
+							</dha:Timespan>
+						</dha:hasAnnotationDescription>
+						<dha:basedOn>
+							<rdf:Description>
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
+								<dha:hasMetadataDescription rdf:parseType="Resource">
+									<dc:title xml:lang="de">
+Palaestina und Syrien. Handbuch für Reisende herausgegeben von K. Bædeker.
+</dc:title>
+									<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1875</dc:identifier>
+									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/36166</dc:identifier>
+								</dha:hasMetadataDescription>
+							</rdf:Description>
+						</dha:basedOn>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="en">Syria</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="de">Syrien</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-syria</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/163843</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35780</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35780/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Palestina</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">Palestine</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://www.geonames.org/6254930</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/4246560</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/38487</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-palestine</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/38487/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:hasPart>
+				<dha:hasPart>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">
+Facsimiles: Baedeker, Konstantinopel und Kleinasien 1905
+</dc:title>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/2677181f-b380-664b-b9fe-b3d3393e47c7
+</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/11931</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Konstantinopel_und_Kleinasien_1905
+</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29FC-B</dc:identifier>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29FC-B</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription>
+							<dha:Timespan>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1905-01-01T00:00:00/1905-01-01T00:00:00</dha:hasISODate>
+							</dha:Timespan>
+						</dha:hasAnnotationDescription>
+						<dha:basedOn>
+							<rdf:Description>
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
+								<dha:hasMetadataDescription rdf:parseType="Resource">
+									<dc:title xml:lang="de">
+Konstantinopel und Kleinasien. Handbuch für Reisende von Karl Bædeker.
+</dc:title>
+									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/43996</dc:identifier>
+									<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1905</dc:identifier>
+								</dha:hasMetadataDescription>
+							</rdf:Description>
+						</dha:basedOn>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Kleinasien</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">Asia Minor</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://pleiades.stoa.org/places/837</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/39249</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-asiaminor</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/39249/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Konstantinopel</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">Constantinople</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/22510</premis:hasIdentifier>
+									<premis:hasIdentifier>https://pleiades.stoa.org/places/520985</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-constantinople</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/22510/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:hasPart>
+			</rdf:Description>
+		</dha:hasPart>
+		<dha:hasPart>
+			<rdf:Description>
+				<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
+				<dha:hasMetadataDescription rdf:parseType="Resource">
+					<dc:title xml:lang="en">cover image for travel!digital</dc:title>
+					<dc:identifier>https://arche.acdh.oeaw.ac.at/api/10770</dc:identifier>
+					<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/traveldigital-title-image.svg
+</dc:identifier>
+					<dc:creator>Barbara Krautgartner</dc:creator>
+				</dha:hasMetadataDescription>
+				<dha:hasPreservationDescription rdf:parseType="Resource">
+					<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+				</dha:hasPreservationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+						<dha:hasIdentifier rdf:parseType="Resource"/>
+						<dha:hasISODate>/</dha:hasISODate>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasType>https://vocabs.acdh.oeaw.ac.at/archecategory/image</dha:hasType>
+				<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48512</dha:hasType>
+			</rdf:Description>
+		</dha:hasPart>
+		<dha:hasPart>
+			<rdf:Description>
+				<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+				<dha:hasMetadataDescription rdf:parseType="Resource">
+					<dc:title xml:lang="en">travel!digital Auxiliary Files</dc:title>
+					<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/4aab57be-7087-52bf-a005-eb77933718b9
+</dc:identifier>
+					<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29F6-1</dc:identifier>
+					<dc:identifier>https://arche.acdh.oeaw.ac.at/api/42511</dc:identifier>
+					<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Auxiliary_Files
+</dc:identifier>
+					<dc:creator>Daniel Schopper</dc:creator>
+					<dc:creator>Barbara Krautgartner</dc:creator>
+					<dc:creator>Ulrike Czeitschner</dc:creator>
+				</dha:hasMetadataDescription>
+				<dha:hasPreservationDescription rdf:parseType="Resource">
+					<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29F6-1</premis:hasIdentifier>
+					<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+				</dha:hasPreservationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+						<dha:hasIdentifier rdf:parseType="Resource"/>
+						<dha:hasISODate>/</dha:hasISODate>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasPart>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">travel!digital TEI Schema</dc:title>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Auxiliary_Files/TEI_schema
+</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/31ff5fa7-8eac-6c5c-c680-4c27eaf0df26
+</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29FD-A</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/42913</dc:identifier>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+							<dc:creator>Daniel Schopper</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29FD-A</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription>
+							<dha:Timespan>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>/</dha:hasISODate>
+							</dha:Timespan>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:hasPart>
+				<dha:hasPart>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">travel!digital term labels</dc:title>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-35CC-3</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/fba6a994-6cd9-657a-8e96-d94567f3b8c1
+</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Auxiliary_Files/traveldigital_persNames-termlabels.xml
+</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/39222</dc:identifier>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+							<dc:creator>Barbara Krautgartner</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35CC-3</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription>
+							<dha:Timespan>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>/</dha:hasISODate>
+							</dha:Timespan>
+						</dha:hasAnnotationDescription>
+						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
+						<dha:hasType>
+https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
+</dha:hasType>
+					</rdf:Description>
+				</dha:hasPart>
+			</rdf:Description>
+		</dha:hasPart>
+		<dha:hasPart>
+			<rdf:Description>
+				<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+				<dha:hasMetadataDescription rdf:parseType="Resource">
+					<dc:title xml:lang="en">travel!digital Corpus</dc:title>
+					<dc:identifier>https://arche.acdh.oeaw.ac.at/api/14006</dc:identifier>
+					<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29F7-0</dc:identifier>
+					<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/268e2e95-d387-f53d-a4ca-041ece2c2f0c
+</dc:identifier>
+					<dc:identifier>https://id.acdh.oeaw.ac.at/traveldigital/Corpus</dc:identifier>
+					<dc:creator>Barbara Krautgartner</dc:creator>
+					<dc:creator>Ulrike Czeitschner</dc:creator>
+					<dc:creator>Victoria Eisenheld</dc:creator>
+					<dc:creator>Laura Lanig</dc:creator>
+				</dha:hasMetadataDescription>
+				<dha:hasPreservationDescription rdf:parseType="Resource">
+					<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29F7-0</premis:hasIdentifier>
+					<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+				</dha:hasPreservationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+						<dha:hasIdentifier rdf:parseType="Resource"/>
+						<dha:hasISODate>1875-01-01T00:00:00/1914-01-01T00:00:00</dha:hasISODate>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:basedOn>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">travel!digital Thesaurus</dc:title>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/f2cac50a-065b-576a-804a-514ee0248d31
+</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-35CB-4</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Thesaurus/traveldigitalThesaurus.rdf
+</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/12461</dc:identifier>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35CB-4</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>/</dha:hasISODate>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48541</dha:hasType>
+						<dha:hasType>https://vocabs.acdh.oeaw.ac.at/archecategory/model</dha:hasType>
+					</rdf:Description>
+				</dha:basedOn>
+				<dha:basedOn>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">travel!digital Thesaurus</dc:title>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/cc7159e1-b6dd-ca6e-f59c-88f7889cf12f
+</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/21203</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29F5-2</dc:identifier>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/traveldigital/Thesaurus</dc:identifier>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29F5-2</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>/</dha:hasISODate>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:basedOn>
+				<dha:basedOn>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">travel!digital Facsimiles</dc:title>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29F4-3</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/f8f27bc7-0915-7009-f3cb-fcb2955d0157
+</dc:identifier>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/traveldigital/Images</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/38486</dc:identifier>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29F4-3</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1875-01-01T00:00:00/1914-01-01T00:00:00</dha:hasISODate>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Indien</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">India</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://www.geonames.org/1269750</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/25486</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-india</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/25486/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Konstantinopel</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">Constantinople</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/22510</premis:hasIdentifier>
+									<premis:hasIdentifier>https://pleiades.stoa.org/places/520985</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-constantinople</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/22510/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Nordamerika</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">North America</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/862</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/6255149</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-northamerica</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/862/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Palestina</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">Palestine</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://www.geonames.org/6254930</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/4246560</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/38487</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-palestine</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/38487/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Kleinasien</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">Asia Minor</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://pleiades.stoa.org/places/837</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/39249</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-asiaminor</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/39249/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="en">Mediterranean Sea</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="de">Mittelmeer</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-mediterraneansea</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/32349</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/363196</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/32349/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="en">Syria</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="de">Syrien</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-syria</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/163843</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35780</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35780/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:basedOn>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+						<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+							<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+							<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+						<dha:hasCatchPhrase xml:lang="de">Nordamerika</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase xml:lang="en">North America</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/862</premis:hasIdentifier>
+							<premis:hasIdentifier>https://www.geonames.org/6255149</premis:hasIdentifier>
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-northamerica</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/862/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+						<dha:hasCatchPhrase xml:lang="de">Indien</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase xml:lang="en">India</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://www.geonames.org/1269750</premis:hasIdentifier>
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/25486</premis:hasIdentifier>
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-india</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/25486/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+						<dha:hasCatchPhrase xml:lang="de">Palestina</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase xml:lang="en">Palestine</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://www.geonames.org/6254930</premis:hasIdentifier>
+							<premis:hasIdentifier>https://www.geonames.org/4246560</premis:hasIdentifier>
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/38487</premis:hasIdentifier>
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-palestine</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/38487/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+						<dha:hasCatchPhrase xml:lang="en">Syria</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase xml:lang="de">Syrien</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-syria</premis:hasIdentifier>
+							<premis:hasIdentifier>https://www.geonames.org/163843</premis:hasIdentifier>
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35780</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35780/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+						<dha:hasCatchPhrase xml:lang="de">Konstantinopel</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase xml:lang="en">Constantinople</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/22510</premis:hasIdentifier>
+							<premis:hasIdentifier>https://pleiades.stoa.org/places/520985</premis:hasIdentifier>
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-constantinople</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/22510/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+						<dha:hasCatchPhrase xml:lang="en">Mediterranean Sea</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase xml:lang="de">Mittelmeer</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-mediterraneansea</premis:hasIdentifier>
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/32349</premis:hasIdentifier>
+							<premis:hasIdentifier>https://www.geonames.org/363196</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/32349/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasAnnotationDescription rdf:parseType="Resource">
+					<dha:hasAnnotationProperty rdf:parseType="Resource">
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+						<dha:hasCatchPhrase xml:lang="de">Kleinasien</dha:hasCatchPhrase>
+						<dha:hasCatchPhrase xml:lang="en">Asia Minor</dha:hasCatchPhrase>
+						<dha:hasIdentifier rdf:parseType="Resource">
+							<premis:hasIdentifier>https://pleiades.stoa.org/places/837</premis:hasIdentifier>
+							<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/39249</premis:hasIdentifier>
+							<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-asiaminor</premis:hasIdentifier>
+							<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+							<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/39249/metadata</dha:hasParsableMetadata>
+						</dha:hasIdentifier>
+					</dha:hasAnnotationProperty>
+				</dha:hasAnnotationDescription>
+				<dha:hasPart>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">
+Karl Baedeker: Nordamerika. Handbuch für Reisende: Digital Edition
+</dc:title>
+							<dc:title xml:lang="de">
+Karl Baedeker: Nordamerika. Handbuch für Reisende: Digitale Ausgabe
+</dc:title>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Nordamerika_1893.xml
+</dc:identifier>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/cmdi/47548</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/c78660e9-f3c7-c7d1-ccd0-015dee273b98
+</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-35D3-A</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/47548</dc:identifier>
+							<dc:creator>Victoria Eisenheld</dc:creator>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+							<dc:creator>Barbara Krautgartner</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35D3-A</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription>
+							<dha:Timespan>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1893-01-01T00:00:00/1893-01-01T00:00:00</dha:hasISODate>
+							</dha:Timespan>
+						</dha:hasAnnotationDescription>
+						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
+						<dha:hasType>
+https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
+</dha:hasType>
+						<dha:basedOn>
+							<rdf:Description>
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+								<dha:hasMetadataDescription rdf:parseType="Resource">
+									<dc:title xml:lang="en">Facsimiles: Baedeker, Nordamerika 1893</dc:title>
+									<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Nordamerika_1893
+</dc:identifier>
+									<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/95ce5603-3422-4c9f-dc0e-4a3f3fc9afe2
+</dc:identifier>
+									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/22328</dc:identifier>
+									<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29F9-E</dc:identifier>
+								</dha:hasMetadataDescription>
+								<dha:hasPreservationDescription rdf:parseType="Resource">
+									<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29F9-E</premis:hasIdentifier>
+									<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
+								</dha:hasPreservationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+										<dha:hasIdentifier rdf:parseType="Resource"/>
+										<dha:hasISODate>1893-01-01T00:00:00/1893-01-01T00:00:00</dha:hasISODate>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+										<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+											<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+											<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+										<dha:hasCatchPhrase xml:lang="de">Nordamerika</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase xml:lang="en">North America</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/862</premis:hasIdentifier>
+											<premis:hasIdentifier>https://www.geonames.org/6255149</premis:hasIdentifier>
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-northamerica</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/862/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+							</rdf:Description>
+						</dha:basedOn>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Nordamerika</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">North America</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/862</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/6255149</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-northamerica</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/862/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:hasPart>
+				<dha:hasPart>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">
+Karl Baedeker: Das Mittelmeer. Handbuch für Reisende: Digital Edition
+</dc:title>
+							<dc:title xml:lang="de">
+Karl Baedeker: Das Mittelmeer. Handbuch für Reisende: Digitale Ausgabe
+</dc:title>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/cmdi/29688</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-35D2-B</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/29688</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Mittelmeer_1909.xml
+</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/10a481c7-fc13-7d83-d2c5-b88dd4a3dc6b
+</dc:identifier>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+							<dc:creator>Victoria Eisenheld</dc:creator>
+							<dc:creator>Barbara Krautgartner</dc:creator>
+							<dc:creator>Laura Lanig</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35D2-B</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription>
+							<dha:Timespan>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1909-01-01T00:00:00/1909-01-01T00:00:00</dha:hasISODate>
+							</dha:Timespan>
+						</dha:hasAnnotationDescription>
+						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
+						<dha:hasType>
+https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
+</dha:hasType>
+						<dha:basedOn>
+							<rdf:Description>
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+								<dha:hasMetadataDescription rdf:parseType="Resource">
+									<dc:title xml:lang="en">Facsimiles: Baedeker, Mittelmeer 1909</dc:title>
+									<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/3380a45c-3c81-d9a7-e258-737ff9e7d4c0
+</dc:identifier>
+									<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29F8-F</dc:identifier>
+									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/17015</dc:identifier>
+									<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Mittelmeer_1909
+</dc:identifier>
+								</dha:hasMetadataDescription>
+								<dha:hasPreservationDescription rdf:parseType="Resource">
+									<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29F8-F</premis:hasIdentifier>
+									<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
+								</dha:hasPreservationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+										<dha:hasIdentifier rdf:parseType="Resource"/>
+										<dha:hasISODate>1909-01-01T00:00:00/1909-01-01T00:00:00</dha:hasISODate>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+										<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+											<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+											<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+										<dha:hasCatchPhrase xml:lang="en">Mediterranean Sea</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase xml:lang="de">Mittelmeer</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-mediterraneansea</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/32349</premis:hasIdentifier>
+											<premis:hasIdentifier>https://www.geonames.org/363196</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/32349/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+							</rdf:Description>
+						</dha:basedOn>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="en">Mediterranean Sea</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="de">Mittelmeer</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-mediterraneansea</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/32349</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/363196</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/32349/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:hasPart>
+				<dha:hasPart>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">
+Karl Baedeker: Indien. Handbuch für Reisende: Digital Edition
+</dc:title>
+							<dc:title xml:lang="de">
+Karl Baedeker: Indien. Handbuch für Reisende: Digitale Ausgabe
+</dc:title>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Indien_1914.xml
+</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/2732</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-35D0-D</dc:identifier>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/cmdi/2732</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/665b247c-8b69-492f-db79-b0aee34e7cf5
+</dc:identifier>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+							<dc:creator>Barbara Krautgartner</dc:creator>
+							<dc:creator>Victoria Eisenheld</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35D0-D</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription>
+							<dha:Timespan>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1914-01-01T00:00:00/1914-01-01T00:00:00</dha:hasISODate>
+							</dha:Timespan>
+						</dha:hasAnnotationDescription>
+						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
+						<dha:hasType>
+https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
+</dha:hasType>
+						<dha:basedOn>
+							<rdf:Description>
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+								<dha:hasMetadataDescription rdf:parseType="Resource">
+									<dc:title xml:lang="en">Facsimiles: Baedeker, Indien 1914</dc:title>
+									<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29FB-C</dc:identifier>
+									<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/16c84699-2469-5ba7-d212-3fae16e6e640
+</dc:identifier>
+									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/34665</dc:identifier>
+									<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Indien_1914
+</dc:identifier>
+								</dha:hasMetadataDescription>
+								<dha:hasPreservationDescription rdf:parseType="Resource">
+									<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29FB-C</premis:hasIdentifier>
+									<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
+								</dha:hasPreservationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+										<dha:hasIdentifier rdf:parseType="Resource"/>
+										<dha:hasISODate>1914-01-01T00:00:00/1914-01-01T00:00:00</dha:hasISODate>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+										<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+											<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+											<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+										<dha:hasCatchPhrase xml:lang="de">Indien</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase xml:lang="en">India</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://www.geonames.org/1269750</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/25486</premis:hasIdentifier>
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-india</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/25486/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+							</rdf:Description>
+						</dha:basedOn>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Indien</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">India</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://www.geonames.org/1269750</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/25486</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-india</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/25486/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:hasPart>
+				<dha:hasPart>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">
+Karl Baedeker: Palästina und Syrien. Handbuch für Reisende: Digital Edition
+</dc:title>
+							<dc:title xml:lang="de">
+Karl Baedeker: Palästina und Syrien. Handbuch für Reisende: Digitale Ausgabe
+</dc:title>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/cmdi/2730</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/cc3e9a92-5638-df47-82fc-b6b3fbd9017e
+</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-35D4-9</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Palaestina_und_Syrien_1875.xml
+</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/2730</dc:identifier>
+							<dc:creator>Barbara Krautgartner</dc:creator>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+							<dc:creator>Victoria Eisenheld</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35D4-9</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription>
+							<dha:Timespan>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1875-01-01T00:00:00/1875-01-01T00:00:00</dha:hasISODate>
+							</dha:Timespan>
+						</dha:hasAnnotationDescription>
+						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
+						<dha:hasType>
+https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
+</dha:hasType>
+						<dha:basedOn>
+							<rdf:Description>
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+								<dha:hasMetadataDescription rdf:parseType="Resource">
+									<dc:title xml:lang="en">Facsimiles: Baedeker, Palästina und Syrien 1875</dc:title>
+									<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29FA-D</dc:identifier>
+									<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Palaestina_und_Syrien_1875
+</dc:identifier>
+									<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/700bdc2f-2ffb-cfb5-82c8-5d8af2436c79
+</dc:identifier>
+									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/32346</dc:identifier>
+								</dha:hasMetadataDescription>
+								<dha:hasPreservationDescription rdf:parseType="Resource">
+									<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29FA-D</premis:hasIdentifier>
+									<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
+								</dha:hasPreservationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+										<dha:hasIdentifier rdf:parseType="Resource"/>
+										<dha:hasISODate>1875-01-01T00:00:00/1875-01-01T00:00:00</dha:hasISODate>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+										<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+											<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+											<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+										<dha:hasCatchPhrase xml:lang="en">Syria</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase xml:lang="de">Syrien</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-syria</premis:hasIdentifier>
+											<premis:hasIdentifier>https://www.geonames.org/163843</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35780</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35780/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+										<dha:hasCatchPhrase xml:lang="de">Palestina</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase xml:lang="en">Palestine</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://www.geonames.org/6254930</premis:hasIdentifier>
+											<premis:hasIdentifier>https://www.geonames.org/4246560</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/38487</premis:hasIdentifier>
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-palestine</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/38487/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+							</rdf:Description>
+						</dha:basedOn>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="en">Syria</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="de">Syrien</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-syria</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/163843</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35780</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35780/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Palestina</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">Palestine</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://www.geonames.org/6254930</premis:hasIdentifier>
+									<premis:hasIdentifier>https://www.geonames.org/4246560</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/38487</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-palestine</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/38487/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:hasPart>
+				<dha:hasPart>
+					<rdf:Description>
+						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
+						<dha:hasMetadataDescription rdf:parseType="Resource">
+							<dc:title xml:lang="en">
+Karl Baedeker: Konstantinopel und Kleinasien. Handbuch für Reisende: Digital Edition
+</dc:title>
+							<dc:title xml:lang="de">
+Karl Baedeker: Konstantinopel und Kleinasien. Handbuch für Reisende: Digitale Ausgabe
+</dc:title>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/30e87910-d3de-f9fb-e222-52330396cc96
+</dc:identifier>
+							<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Konstantinopel_und_Kleinasien_1905.xml
+</dc:identifier>
+							<dc:identifier>https://id.acdh.oeaw.ac.at/cmdi/8420</dc:identifier>
+							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/8420</dc:identifier>
+							<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-35D1-C</dc:identifier>
+							<dc:creator>Ulrike Czeitschner</dc:creator>
+							<dc:creator>Barbara Krautgartner</dc:creator>
+							<dc:creator>Victoria Eisenheld</dc:creator>
+						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource">
+							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35D1-C</premis:hasIdentifier>
+							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
+						</dha:hasPreservationDescription>
+						<dha:hasAnnotationDescription>
+							<dha:Timespan>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>1905-01-01T00:00:00/1905-01-01T00:00:00</dha:hasISODate>
+							</dha:Timespan>
+						</dha:hasAnnotationDescription>
+						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
+						<dha:hasType>
+https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
+</dha:hasType>
+						<dha:basedOn>
+							<rdf:Description>
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
+								<dha:hasMetadataDescription rdf:parseType="Resource">
+									<dc:title xml:lang="en">
+Facsimiles: Baedeker, Konstantinopel und Kleinasien 1905
+</dc:title>
+									<dc:identifier>
+https://id.acdh.oeaw.ac.at/uuid/2677181f-b380-664b-b9fe-b3d3393e47c7
+</dc:identifier>
+									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/11931</dc:identifier>
+									<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29FC-B</dc:identifier>
+									<dc:identifier>
+https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Konstantinopel_und_Kleinasien_1905
+</dc:identifier>
+								</dha:hasMetadataDescription>
+								<dha:hasPreservationDescription rdf:parseType="Resource">
+									<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29FC-B</premis:hasIdentifier>
+									<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
+								</dha:hasPreservationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+										<dha:hasIdentifier rdf:parseType="Resource"/>
+										<dha:hasISODate>1905-01-01T00:00:00/1905-01-01T00:00:00</dha:hasISODate>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+										<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+											<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+											<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+										<dha:hasCatchPhrase xml:lang="de">Kleinasien</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase xml:lang="en">Asia Minor</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://pleiades.stoa.org/places/837</premis:hasIdentifier>
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/39249</premis:hasIdentifier>
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-asiaminor</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/39249/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+										<dha:hasCatchPhrase xml:lang="de">Konstantinopel</dha:hasCatchPhrase>
+										<dha:hasCatchPhrase xml:lang="en">Constantinople</dha:hasCatchPhrase>
+										<dha:hasIdentifier rdf:parseType="Resource">
+											<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/22510</premis:hasIdentifier>
+											<premis:hasIdentifier>https://pleiades.stoa.org/places/520985</premis:hasIdentifier>
+											<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-constantinople</premis:hasIdentifier>
+											<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+											<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/22510/metadata</dha:hasParsableMetadata>
+										</dha:hasIdentifier>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
+							</rdf:Description>
+						</dha:basedOn>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Person"/>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase>Karl Baedeker</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/kbaedeker</premis:hasIdentifier>
+									<premis:hasIdentifier>https://viaf.org/viaf/100207476</premis:hasIdentifier>
+									<premis:hasIdentifier>https://d-nb.info/gnd/116033290</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/35998</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/35998/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Kleinasien</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">Asia Minor</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://pleiades.stoa.org/places/837</premis:hasIdentifier>
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/39249</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-asiaminor</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/39249/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Place"/>
+								<dha:hasCatchPhrase xml:lang="de">Konstantinopel</dha:hasCatchPhrase>
+								<dha:hasCatchPhrase xml:lang="en">Constantinople</dha:hasCatchPhrase>
+								<dha:hasIdentifier rdf:parseType="Resource">
+									<premis:hasIdentifier>https://arche.acdh.oeaw.ac.at/api/22510</premis:hasIdentifier>
+									<premis:hasIdentifier>https://pleiades.stoa.org/places/520985</premis:hasIdentifier>
+									<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/place-constantinople</premis:hasIdentifier>
+									<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+									<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/22510/metadata</dha:hasParsableMetadata>
+								</dha:hasIdentifier>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
+					</rdf:Description>
+				</dha:hasPart>
+			</rdf:Description>
+		</dha:hasPart>
+	</dha:RepoCollection>
+</rdf:RDF>
