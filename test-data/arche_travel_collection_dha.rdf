@@ -10,7 +10,7 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-	<dha:RepoCollection>
+	<dha:RepoCollection rdf:about="https://arche.acdh.oeaw.ac.at/api/19641">
 		<dha:hasMetadataDescription rdf:parseType="Resource">
 			<dc:title xml:lang="en">travel!digital Collection</dc:title>
 			<dc:identifier>https://hdl.handle.net/21.11115/0000-000C-29F3-4</dc:identifier>
@@ -30,7 +30,7 @@ https://id.acdh.oeaw.ac.at/uuid/479793f9-9e6b-c5f4-debf-f929d6860966
 			<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
 		</dha:hasPreservationDescription>
 		<dha:hasPart>
-			<rdf:Description>
+			<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/21203">
 				<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 				<dha:hasMetadataDescription rdf:parseType="Resource">
 					<dc:title xml:lang="en">travel!digital Thesaurus</dc:title>
@@ -54,7 +54,7 @@ https://id.acdh.oeaw.ac.at/uuid/cc7159e1-b6dd-ca6e-f59c-88f7889cf12f
 					</dha:hasAnnotationProperty>
 				</dha:hasAnnotationDescription>
 				<dha:basedOn>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/47548">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">
@@ -123,7 +123,7 @@ https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
 					</rdf:Description>
 				</dha:basedOn>
 				<dha:basedOn>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/29688">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">
@@ -193,7 +193,7 @@ https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
 					</rdf:Description>
 				</dha:basedOn>
 				<dha:basedOn>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/2732">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">
@@ -262,7 +262,7 @@ https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
 					</rdf:Description>
 				</dha:basedOn>
 				<dha:basedOn>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/2730">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">
@@ -346,7 +346,7 @@ https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
 					</rdf:Description>
 				</dha:basedOn>
 				<dha:basedOn>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/8420">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">
@@ -429,7 +429,7 @@ https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
 					</rdf:Description>
 				</dha:basedOn>
 				<dha:basedOn>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/14006">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">travel!digital Corpus</dc:title>
@@ -572,7 +572,7 @@ https://id.acdh.oeaw.ac.at/uuid/268e2e95-d387-f53d-a4ca-041ece2c2f0c
 					</rdf:Description>
 				</dha:basedOn>
 				<dha:hasPart>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/12461">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">travel!digital Thesaurus</dc:title>
@@ -590,16 +590,17 @@ https://id.acdh.oeaw.ac.at/uuid/f2cac50a-065b-576a-804a-514ee0248d31
 							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35CB-4</premis:hasIdentifier>
 							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
 						</dha:hasPreservationDescription>
-						<dha:hasAnnotationDescription>
-							<dha:Timespan>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
 								<dha:hasIdentifier rdf:parseType="Resource"/>
 								<dha:hasISODate>/</dha:hasISODate>
-							</dha:Timespan>
+							</dha:hasAnnotationProperty>
 						</dha:hasAnnotationDescription>
 						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48541</dha:hasType>
 						<dha:hasType>https://vocabs.acdh.oeaw.ac.at/archecategory/model</dha:hasType>
 						<dha:basedOn>
-							<rdf:Description>
+							<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/14006">
 								<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 								<dha:hasMetadataDescription rdf:parseType="Resource">
 									<dc:title xml:lang="en">travel!digital Corpus</dc:title>
@@ -746,7 +747,7 @@ https://id.acdh.oeaw.ac.at/uuid/268e2e95-d387-f53d-a4ca-041ece2c2f0c
 			</rdf:Description>
 		</dha:hasPart>
 		<dha:hasPart>
-			<rdf:Description>
+			<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/38486">
 				<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 				<dha:hasMetadataDescription rdf:parseType="Resource">
 					<dc:title xml:lang="en">travel!digital Facsimiles</dc:title>
@@ -769,7 +770,7 @@ https://id.acdh.oeaw.ac.at/uuid/f8f27bc7-0915-7009-f3cb-fcb2955d0157
 					</dha:hasAnnotationProperty>
 				</dha:hasAnnotationDescription>
 				<dha:basedOn>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/43996">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="de">
@@ -778,10 +779,18 @@ Konstantinopel und Kleinasien. Handbuch für Reisende von Karl Bædeker.
 							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/43996</dc:identifier>
 							<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1905</dc:identifier>
 						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource"/>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>/</dha:hasISODate>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
 					</rdf:Description>
 				</dha:basedOn>
 				<dha:basedOn>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/41736">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="de">
@@ -790,20 +799,36 @@ Nordamerika. Die Vereinigten Staaten nebst einem Ausflug nach Mexiko. Handbuch f
 							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/41736</dc:identifier>
 							<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1893</dc:identifier>
 						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource"/>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>/</dha:hasISODate>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
 					</rdf:Description>
 				</dha:basedOn>
 				<dha:basedOn>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/19443">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="de">Indien. Handbuch für Reisende von Karl Bædeker.</dc:title>
 							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/19443</dc:identifier>
 							<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1914</dc:identifier>
 						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource"/>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>/</dha:hasISODate>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
 					</rdf:Description>
 				</dha:basedOn>
 				<dha:basedOn>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/43994">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="de">
@@ -812,10 +837,18 @@ Das Mittelmeer. Hafenplätze und Seewege nebst Madeira, den Kanarischen Inseln, 
 							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/43994</dc:identifier>
 							<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1909</dc:identifier>
 						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource"/>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>/</dha:hasISODate>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
 					</rdf:Description>
 				</dha:basedOn>
 				<dha:basedOn>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/36166">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="de">
@@ -824,6 +857,14 @@ Palaestina und Syrien. Handbuch für Reisende herausgegeben von K. Bædeker.
 							<dc:identifier>https://arche.acdh.oeaw.ac.at/api/36166</dc:identifier>
 							<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1875</dc:identifier>
 						</dha:hasMetadataDescription>
+						<dha:hasPreservationDescription rdf:parseType="Resource"/>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+								<dha:hasIdentifier rdf:parseType="Resource"/>
+								<dha:hasISODate>/</dha:hasISODate>
+							</dha:hasAnnotationProperty>
+						</dha:hasAnnotationDescription>
 					</rdf:Description>
 				</dha:basedOn>
 				<dha:hasAnnotationDescription rdf:parseType="Resource">
@@ -941,7 +982,7 @@ Palaestina und Syrien. Handbuch für Reisende herausgegeben von K. Bædeker.
 					</dha:hasAnnotationProperty>
 				</dha:hasAnnotationDescription>
 				<dha:hasPart>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/22328">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">Facsimiles: Baedeker, Nordamerika 1893</dc:title>
@@ -958,14 +999,15 @@ https://id.acdh.oeaw.ac.at/uuid/95ce5603-3422-4c9f-dc0e-4a3f3fc9afe2
 							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29F9-E</premis:hasIdentifier>
 							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
 						</dha:hasPreservationDescription>
-						<dha:hasAnnotationDescription>
-							<dha:Timespan>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
 								<dha:hasIdentifier rdf:parseType="Resource"/>
 								<dha:hasISODate>1893-01-01T00:00:00/1893-01-01T00:00:00</dha:hasISODate>
-							</dha:Timespan>
+							</dha:hasAnnotationProperty>
 						</dha:hasAnnotationDescription>
 						<dha:basedOn>
-							<rdf:Description>
+							<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/41736">
 								<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
 								<dha:hasMetadataDescription rdf:parseType="Resource">
 									<dc:title xml:lang="de">
@@ -974,6 +1016,14 @@ Nordamerika. Die Vereinigten Staaten nebst einem Ausflug nach Mexiko. Handbuch f
 									<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1893</dc:identifier>
 									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/41736</dc:identifier>
 								</dha:hasMetadataDescription>
+								<dha:hasPreservationDescription rdf:parseType="Resource"/>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+										<dha:hasIdentifier rdf:parseType="Resource"/>
+										<dha:hasISODate>/</dha:hasISODate>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
 							</rdf:Description>
 						</dha:basedOn>
 						<dha:hasAnnotationDescription rdf:parseType="Resource">
@@ -1008,7 +1058,7 @@ Nordamerika. Die Vereinigten Staaten nebst einem Ausflug nach Mexiko. Handbuch f
 					</rdf:Description>
 				</dha:hasPart>
 				<dha:hasPart>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/34665">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">Facsimiles: Baedeker, Indien 1914</dc:title>
@@ -1025,20 +1075,29 @@ https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Indien_1914
 							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29FB-C</premis:hasIdentifier>
 							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
 						</dha:hasPreservationDescription>
-						<dha:hasAnnotationDescription>
-							<dha:Timespan>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
 								<dha:hasIdentifier rdf:parseType="Resource"/>
 								<dha:hasISODate>1914-01-01T00:00:00/1914-01-01T00:00:00</dha:hasISODate>
-							</dha:Timespan>
+							</dha:hasAnnotationProperty>
 						</dha:hasAnnotationDescription>
 						<dha:basedOn>
-							<rdf:Description>
+							<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/19443">
 								<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
 								<dha:hasMetadataDescription rdf:parseType="Resource">
 									<dc:title xml:lang="de">Indien. Handbuch für Reisende von Karl Bædeker.</dc:title>
 									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/19443</dc:identifier>
 									<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1914</dc:identifier>
 								</dha:hasMetadataDescription>
+								<dha:hasPreservationDescription rdf:parseType="Resource"/>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+										<dha:hasIdentifier rdf:parseType="Resource"/>
+										<dha:hasISODate>/</dha:hasISODate>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
 							</rdf:Description>
 						</dha:basedOn>
 						<dha:hasAnnotationDescription rdf:parseType="Resource">
@@ -1073,7 +1132,7 @@ https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Indien_1914
 					</rdf:Description>
 				</dha:hasPart>
 				<dha:hasPart>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/17015">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">Facsimiles: Baedeker, Mittelmeer 1909</dc:title>
@@ -1090,14 +1149,15 @@ https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Mittelmeer_1909
 							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29F8-F</premis:hasIdentifier>
 							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
 						</dha:hasPreservationDescription>
-						<dha:hasAnnotationDescription>
-							<dha:Timespan>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
 								<dha:hasIdentifier rdf:parseType="Resource"/>
 								<dha:hasISODate>1909-01-01T00:00:00/1909-01-01T00:00:00</dha:hasISODate>
-							</dha:Timespan>
+							</dha:hasAnnotationProperty>
 						</dha:hasAnnotationDescription>
 						<dha:basedOn>
-							<rdf:Description>
+							<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/43994">
 								<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
 								<dha:hasMetadataDescription rdf:parseType="Resource">
 									<dc:title xml:lang="de">
@@ -1106,6 +1166,14 @@ Das Mittelmeer. Hafenplätze und Seewege nebst Madeira, den Kanarischen Inseln, 
 									<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1909</dc:identifier>
 									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/43994</dc:identifier>
 								</dha:hasMetadataDescription>
+								<dha:hasPreservationDescription rdf:parseType="Resource"/>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+										<dha:hasIdentifier rdf:parseType="Resource"/>
+										<dha:hasISODate>/</dha:hasISODate>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
 							</rdf:Description>
 						</dha:basedOn>
 						<dha:hasAnnotationDescription rdf:parseType="Resource">
@@ -1140,7 +1208,7 @@ Das Mittelmeer. Hafenplätze und Seewege nebst Madeira, den Kanarischen Inseln, 
 					</rdf:Description>
 				</dha:hasPart>
 				<dha:hasPart>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/32346">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">Facsimiles: Baedeker, Palästina und Syrien 1875</dc:title>
@@ -1157,14 +1225,15 @@ https://id.acdh.oeaw.ac.at/uuid/700bdc2f-2ffb-cfb5-82c8-5d8af2436c79
 							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29FA-D</premis:hasIdentifier>
 							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
 						</dha:hasPreservationDescription>
-						<dha:hasAnnotationDescription>
-							<dha:Timespan>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
 								<dha:hasIdentifier rdf:parseType="Resource"/>
 								<dha:hasISODate>1875-01-01T00:00:00/1875-01-01T00:00:00</dha:hasISODate>
-							</dha:Timespan>
+							</dha:hasAnnotationProperty>
 						</dha:hasAnnotationDescription>
 						<dha:basedOn>
-							<rdf:Description>
+							<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/36166">
 								<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
 								<dha:hasMetadataDescription rdf:parseType="Resource">
 									<dc:title xml:lang="de">
@@ -1173,6 +1242,14 @@ Palaestina und Syrien. Handbuch für Reisende herausgegeben von K. Bædeker.
 									<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1875</dc:identifier>
 									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/36166</dc:identifier>
 								</dha:hasMetadataDescription>
+								<dha:hasPreservationDescription rdf:parseType="Resource"/>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+										<dha:hasIdentifier rdf:parseType="Resource"/>
+										<dha:hasISODate>/</dha:hasISODate>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
 							</rdf:Description>
 						</dha:basedOn>
 						<dha:hasAnnotationDescription rdf:parseType="Resource">
@@ -1222,7 +1299,7 @@ Palaestina und Syrien. Handbuch für Reisende herausgegeben von K. Bædeker.
 					</rdf:Description>
 				</dha:hasPart>
 				<dha:hasPart>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/11931">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">
@@ -1241,14 +1318,15 @@ https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Konstantinopel_und_Klei
 							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29FC-B</premis:hasIdentifier>
 							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48908</dha:hasLicense>
 						</dha:hasPreservationDescription>
-						<dha:hasAnnotationDescription>
-							<dha:Timespan>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
 								<dha:hasIdentifier rdf:parseType="Resource"/>
 								<dha:hasISODate>1905-01-01T00:00:00/1905-01-01T00:00:00</dha:hasISODate>
-							</dha:Timespan>
+							</dha:hasAnnotationProperty>
 						</dha:hasAnnotationDescription>
 						<dha:basedOn>
-							<rdf:Description>
+							<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/43996">
 								<rdf:type rdf:resource="https://digital-humanities.at/schema#Object"/>
 								<dha:hasMetadataDescription rdf:parseType="Resource">
 									<dc:title xml:lang="de">
@@ -1257,6 +1335,14 @@ Konstantinopel und Kleinasien. Handbuch für Reisende von Karl Bædeker.
 									<dc:identifier>https://arche.acdh.oeaw.ac.at/api/43996</dc:identifier>
 									<dc:identifier>https://id.acdh.oeaw.ac.at/pub-baedeker1905</dc:identifier>
 								</dha:hasMetadataDescription>
+								<dha:hasPreservationDescription rdf:parseType="Resource"/>
+								<dha:hasAnnotationDescription rdf:parseType="Resource">
+									<dha:hasAnnotationProperty rdf:parseType="Resource">
+										<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
+										<dha:hasIdentifier rdf:parseType="Resource"/>
+										<dha:hasISODate>/</dha:hasISODate>
+									</dha:hasAnnotationProperty>
+								</dha:hasAnnotationDescription>
 							</rdf:Description>
 						</dha:basedOn>
 						<dha:hasAnnotationDescription rdf:parseType="Resource">
@@ -1307,7 +1393,7 @@ Konstantinopel und Kleinasien. Handbuch für Reisende von Karl Bædeker.
 			</rdf:Description>
 		</dha:hasPart>
 		<dha:hasPart>
-			<rdf:Description>
+			<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/10770">
 				<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
 				<dha:hasMetadataDescription rdf:parseType="Resource">
 					<dc:title xml:lang="en">cover image for travel!digital</dc:title>
@@ -1332,7 +1418,7 @@ https://id.acdh.oeaw.ac.at/traveldigital/traveldigital-title-image.svg
 			</rdf:Description>
 		</dha:hasPart>
 		<dha:hasPart>
-			<rdf:Description>
+			<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/42511">
 				<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 				<dha:hasMetadataDescription rdf:parseType="Resource">
 					<dc:title xml:lang="en">travel!digital Auxiliary Files</dc:title>
@@ -1360,7 +1446,7 @@ https://id.acdh.oeaw.ac.at/traveldigital/Auxiliary_Files
 					</dha:hasAnnotationProperty>
 				</dha:hasAnnotationDescription>
 				<dha:hasPart>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/42913">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">travel!digital TEI Schema</dc:title>
@@ -1379,16 +1465,17 @@ https://id.acdh.oeaw.ac.at/uuid/31ff5fa7-8eac-6c5c-c680-4c27eaf0df26
 							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-29FD-A</premis:hasIdentifier>
 							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
 						</dha:hasPreservationDescription>
-						<dha:hasAnnotationDescription>
-							<dha:Timespan>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
 								<dha:hasIdentifier rdf:parseType="Resource"/>
 								<dha:hasISODate>/</dha:hasISODate>
-							</dha:Timespan>
+							</dha:hasAnnotationProperty>
 						</dha:hasAnnotationDescription>
 					</rdf:Description>
 				</dha:hasPart>
 				<dha:hasPart>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/39222">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">travel!digital term labels</dc:title>
@@ -1407,11 +1494,12 @@ https://id.acdh.oeaw.ac.at/traveldigital/Auxiliary_Files/traveldigital_persNames
 							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35CC-3</premis:hasIdentifier>
 							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
 						</dha:hasPreservationDescription>
-						<dha:hasAnnotationDescription>
-							<dha:Timespan>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
 								<dha:hasIdentifier rdf:parseType="Resource"/>
 								<dha:hasISODate>/</dha:hasISODate>
-							</dha:Timespan>
+							</dha:hasAnnotationProperty>
 						</dha:hasAnnotationDescription>
 						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
 						<dha:hasType>
@@ -1422,7 +1510,7 @@ https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
 			</rdf:Description>
 		</dha:hasPart>
 		<dha:hasPart>
-			<rdf:Description>
+			<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/14006">
 				<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 				<dha:hasMetadataDescription rdf:parseType="Resource">
 					<dc:title xml:lang="en">travel!digital Corpus</dc:title>
@@ -1449,7 +1537,7 @@ https://id.acdh.oeaw.ac.at/uuid/268e2e95-d387-f53d-a4ca-041ece2c2f0c
 					</dha:hasAnnotationProperty>
 				</dha:hasAnnotationDescription>
 				<dha:basedOn>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/12461">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">travel!digital Thesaurus</dc:title>
@@ -1479,7 +1567,7 @@ https://id.acdh.oeaw.ac.at/traveldigital/Thesaurus/traveldigitalThesaurus.rdf
 					</rdf:Description>
 				</dha:basedOn>
 				<dha:basedOn>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/21203">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">travel!digital Thesaurus</dc:title>
@@ -1505,7 +1593,7 @@ https://id.acdh.oeaw.ac.at/uuid/cc7159e1-b6dd-ca6e-f59c-88f7889cf12f
 					</rdf:Description>
 				</dha:basedOn>
 				<dha:basedOn>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/38486">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">travel!digital Facsimiles</dc:title>
@@ -1758,7 +1846,7 @@ https://id.acdh.oeaw.ac.at/uuid/f8f27bc7-0915-7009-f3cb-fcb2955d0157
 					</dha:hasAnnotationProperty>
 				</dha:hasAnnotationDescription>
 				<dha:hasPart>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/47548">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">
@@ -1784,18 +1872,19 @@ https://id.acdh.oeaw.ac.at/uuid/c78660e9-f3c7-c7d1-ccd0-015dee273b98
 							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35D3-A</premis:hasIdentifier>
 							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
 						</dha:hasPreservationDescription>
-						<dha:hasAnnotationDescription>
-							<dha:Timespan>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
 								<dha:hasIdentifier rdf:parseType="Resource"/>
 								<dha:hasISODate>1893-01-01T00:00:00/1893-01-01T00:00:00</dha:hasISODate>
-							</dha:Timespan>
+							</dha:hasAnnotationProperty>
 						</dha:hasAnnotationDescription>
 						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
 						<dha:hasType>
 https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
 </dha:hasType>
 						<dha:basedOn>
-							<rdf:Description>
+							<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/22328">
 								<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 								<dha:hasMetadataDescription rdf:parseType="Resource">
 									<dc:title xml:lang="en">Facsimiles: Baedeker, Nordamerika 1893</dc:title>
@@ -1882,7 +1971,7 @@ https://id.acdh.oeaw.ac.at/uuid/95ce5603-3422-4c9f-dc0e-4a3f3fc9afe2
 					</rdf:Description>
 				</dha:hasPart>
 				<dha:hasPart>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/29688">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">
@@ -1909,18 +1998,19 @@ https://id.acdh.oeaw.ac.at/uuid/10a481c7-fc13-7d83-d2c5-b88dd4a3dc6b
 							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35D2-B</premis:hasIdentifier>
 							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
 						</dha:hasPreservationDescription>
-						<dha:hasAnnotationDescription>
-							<dha:Timespan>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
 								<dha:hasIdentifier rdf:parseType="Resource"/>
 								<dha:hasISODate>1909-01-01T00:00:00/1909-01-01T00:00:00</dha:hasISODate>
-							</dha:Timespan>
+							</dha:hasAnnotationProperty>
 						</dha:hasAnnotationDescription>
 						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
 						<dha:hasType>
 https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
 </dha:hasType>
 						<dha:basedOn>
-							<rdf:Description>
+							<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/17015">
 								<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 								<dha:hasMetadataDescription rdf:parseType="Resource">
 									<dc:title xml:lang="en">Facsimiles: Baedeker, Mittelmeer 1909</dc:title>
@@ -2007,7 +2097,7 @@ https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Mittelmeer_1909
 					</rdf:Description>
 				</dha:hasPart>
 				<dha:hasPart>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/2732">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">
@@ -2033,18 +2123,19 @@ https://id.acdh.oeaw.ac.at/uuid/665b247c-8b69-492f-db79-b0aee34e7cf5
 							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35D0-D</premis:hasIdentifier>
 							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
 						</dha:hasPreservationDescription>
-						<dha:hasAnnotationDescription>
-							<dha:Timespan>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
 								<dha:hasIdentifier rdf:parseType="Resource"/>
 								<dha:hasISODate>1914-01-01T00:00:00/1914-01-01T00:00:00</dha:hasISODate>
-							</dha:Timespan>
+							</dha:hasAnnotationProperty>
 						</dha:hasAnnotationDescription>
 						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
 						<dha:hasType>
 https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
 </dha:hasType>
 						<dha:basedOn>
-							<rdf:Description>
+							<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/34665">
 								<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 								<dha:hasMetadataDescription rdf:parseType="Resource">
 									<dc:title xml:lang="en">Facsimiles: Baedeker, Indien 1914</dc:title>
@@ -2131,7 +2222,7 @@ https://id.acdh.oeaw.ac.at/traveldigital/Images/Baedeker-Indien_1914
 					</rdf:Description>
 				</dha:hasPart>
 				<dha:hasPart>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/2730">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">
@@ -2157,18 +2248,19 @@ https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Palaestina_und_Syrien_1
 							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35D4-9</premis:hasIdentifier>
 							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
 						</dha:hasPreservationDescription>
-						<dha:hasAnnotationDescription>
-							<dha:Timespan>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
 								<dha:hasIdentifier rdf:parseType="Resource"/>
 								<dha:hasISODate>1875-01-01T00:00:00/1875-01-01T00:00:00</dha:hasISODate>
-							</dha:Timespan>
+							</dha:hasAnnotationProperty>
 						</dha:hasAnnotationDescription>
 						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
 						<dha:hasType>
 https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
 </dha:hasType>
 						<dha:basedOn>
-							<rdf:Description>
+							<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/32346">
 								<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 								<dha:hasMetadataDescription rdf:parseType="Resource">
 									<dc:title xml:lang="en">Facsimiles: Baedeker, Palästina und Syrien 1875</dc:title>
@@ -2285,7 +2377,7 @@ https://id.acdh.oeaw.ac.at/uuid/700bdc2f-2ffb-cfb5-82c8-5d8af2436c79
 					</rdf:Description>
 				</dha:hasPart>
 				<dha:hasPart>
-					<rdf:Description>
+					<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/8420">
 						<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoObject"/>
 						<dha:hasMetadataDescription rdf:parseType="Resource">
 							<dc:title xml:lang="en">
@@ -2311,18 +2403,19 @@ https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Konstantinopel_und_Klei
 							<premis:hasIdentifier>https://hdl.handle.net/21.11115/0000-000C-35D1-C</premis:hasIdentifier>
 							<dha:hasLicense>https://arche.acdh.oeaw.ac.at/api/48534</dha:hasLicense>
 						</dha:hasPreservationDescription>
-						<dha:hasAnnotationDescription>
-							<dha:Timespan>
+						<dha:hasAnnotationDescription rdf:parseType="Resource">
+							<dha:hasAnnotationProperty rdf:parseType="Resource">
+								<rdf:type rdf:resource="https://digital-humanities.at/schema#Timespan"/>
 								<dha:hasIdentifier rdf:parseType="Resource"/>
 								<dha:hasISODate>1905-01-01T00:00:00/1905-01-01T00:00:00</dha:hasISODate>
-							</dha:Timespan>
+							</dha:hasAnnotationProperty>
 						</dha:hasAnnotationDescription>
 						<dha:hasType>https://arche.acdh.oeaw.ac.at/api/48521</dha:hasType>
 						<dha:hasType>
 https://vocabs.acdh.oeaw.ac.at/archecategory/dataset
 </dha:hasType>
 						<dha:basedOn>
-							<rdf:Description>
+							<rdf:Description rdf:about="https://arche.acdh.oeaw.ac.at/api/11931">
 								<rdf:type rdf:resource="https://digital-humanities.at/schema#RepoCollection"/>
 								<dha:hasMetadataDescription rdf:parseType="Resource">
 									<dc:title xml:lang="en">
