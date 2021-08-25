@@ -14,21 +14,76 @@
                               rdf:resource="https://digital-humanities.at/schema#CollectionType/DigitalScholarlyEdition"/>
                     <dha:hasRepoCollection rdf:resource="https://gams.uni-graz.at/context:wiesinger"
                     />
+                    <dha:hasObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1961"/>
+                    <dha:hasObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1962"/>
+                    <dha:hasObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1963"/>
+                    <dha:hasObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1964"/>
+                    <dha:hasObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1965"/>
+                    <dha:hasObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1966"/>
+                    <dha:hasObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1967"/>
+                    <dha:hasObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1968"/>
+                    <dha:hasObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1969"/>
+                    <dha:hasObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1970"/>
+                    <dha:hasObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1971"/>
+                    <dha:hasObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1972"/>
+                    <dha:hasObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1973"/>
           </dha:Collection>
+          <dha:Object rdf:about="https://gams.uni-graz.at/o:wiesinger.1961">
+          <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1961"/>
+          </dha:Object>
+          <dha:Object rdf:about="https://gams.uni-graz.at/o:wiesinger.1962">
+          <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1962"/>
+          </dha:Object>
+          <dha:Object rdf:about="https://gams.uni-graz.at/o:wiesinger.1963">
+          <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1963"/>
+          </dha:Object>
+          <dha:Object rdf:about="https://gams.uni-graz.at/o:wiesinger.1964">
+          <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1964"/>
+          </dha:Object>
+          <dha:Object rdf:about="https://gams.uni-graz.at/o:wiesinger.1965">
+          <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1965"/>
+          </dha:Object>
+          <dha:Object rdf:about="https://gams.uni-graz.at/o:wiesinger.1966">
+          <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1966"/>
+          </dha:Object>
+          <dha:Object rdf:about="https://gams.uni-graz.at/o:wiesinger.1967">
+          <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1967"/>
+          </dha:Object>
+          <dha:Object rdf:about="https://gams.uni-graz.at/o:wiesinger.1968">
+          <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1968"/>
+          </dha:Object>
+          <dha:Object rdf:about="https://gams.uni-graz.at/o:wiesinger.1969">
+          <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1969"/>
+          </dha:Object>
+          <dha:Object rdf:about="https://gams.uni-graz.at/o:wiesinger.1970">
+          <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1970"/>
+          </dha:Object>
+          <dha:Object rdf:about="https://gams.uni-graz.at/o:wiesinger.1971">
+          <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1971"/>
+          </dha:Object>
+          <dha:Object rdf:about="https://gams.uni-graz.at/o:wiesinger.19672">
+          <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1972"/>
+          </dha:Object>
+          <dha:Object rdf:about="https://gams.uni-graz.at/o:wiesinger.1973">
+          <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1973"/>
+          </dha:Object>
+          <dha:Object rdf:about="https://gams.uni-graz.at/o:wiesinger.1961">
+          </dha:Object>
+          
           <dha:RepoCollection rdf:about="https://gams.uni-graz.at/context:wiesinger">
-                    <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1961"/>
-                    <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1962"/>
-                    <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1963"/>
-                    <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1964"/>
-                    <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1965"/>
-                    <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1966"/>
-                    <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1967"/>
-                    <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1968"/>
-                    <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1969"/>
-                    <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1970"/>
-                    <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1971"/>
-                    <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1972"/>
-                    <dha:hasRepoObject rdf:resource="https://gams.uni-graz.at/o:wiesinger.1973"/>
+                    <dha:hasPart rdf:resource="https://gams.uni-graz.at/o:wiesinger.1961"/>
+                    <dha:hasPart rdf:resource="https://gams.uni-graz.at/o:wiesinger.1962"/>
+                    <dha:hasPart rdf:resource="https://gams.uni-graz.at/o:wiesinger.1963"/>
+                    <dha:hasPart rdf:resource="https://gams.uni-graz.at/o:wiesinger.1964"/>
+                    <dha:hasPart rdf:resource="https://gams.uni-graz.at/o:wiesinger.1965"/>
+                    <dha:hasPart rdf:resource="https://gams.uni-graz.at/o:wiesinger.1966"/>
+                    <dha:hasPart rdf:resource="https://gams.uni-graz.at/o:wiesinger.1967"/>
+                    <dha:hasPart rdf:resource="https://gams.uni-graz.at/o:wiesinger.1968"/>
+                    <dha:hasPart rdf:resource="https://gams.uni-graz.at/o:wiesinger.1969"/>
+                    <dha:hasPart rdf:resource="https://gams.uni-graz.at/o:wiesinger.1970"/>
+                    <dha:hasPart rdf:resource="https://gams.uni-graz.at/o:wiesinger.1971"/>
+                    <dha:hasPart rdf:resource="https://gams.uni-graz.at/o:wiesinger.1972"/>
+                    <dha:hasPart rdf:resource="https://gams.uni-graz.at/o:wiesinger.1973"/>
           </dha:RepoCollection>
 
           <dha:RepoObject rdf:about="https://gams.uni-graz.at/o:wiesinger.1961">
