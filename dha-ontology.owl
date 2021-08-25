@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE RDF [
-    <!ENTITY xml "http://www.w3.org/XML/1998/namespace"> 
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#"> 
-    <!ENTITY owl "http://www.w3.org/2002/07/owl#"> 
-    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">   
-    <!ENTITY dc "http://purl.org/dc/elements/1.1/"> 
-    <!ENTITY dct "http://purl.org/dc/terms/"> 
-    <!ENTITY foaf "http://xmlns.com/foaf/0.1/"> 
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace">
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+    <!ENTITY dct "http://purl.org/dc/terms/">
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
     <!ENTITY premis "http://www.loc.gov/premis/rdf/v1#">
-    <!ENTITY dha "https://digital-humanities.at/schema#"> 
+    <!ENTITY dha "https://digital-humanities.at/schema#">
     <!ENTITY ebucore "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#">
 ]>
 <rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xml="&xml;" xmlns:xsd="&xsd;"
@@ -37,12 +37,13 @@
         <dc:contributor>Christoph Steindl</dc:contributor>
         <dc:contributor>Johannes Stigler</dc:contributor>
         <dc:contributor>Martina Trognitz</dc:contributor>
-        <owl:versionInfo xml:lang="de">2019-11-29/0.4.1</owl:versionInfo>
+        <dc:contributor>Massimiliano Carloni</dc:contributor>
+        <owl:versionInfo xml:lang="de">2021-08-25/0.5.1</owl:versionInfo>
     </owl:Ontology>
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Equivalences   
+    // Equivalences
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
@@ -64,14 +65,14 @@
     <owl:DatatypeProperty rdf:about="&dct;conformsTo">
         <owl:equivalentProperty rdf:resource="&dha;conformsTo"/>
     </owl:DatatypeProperty>
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Object Properties    
+    // Object Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //  Collection
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -101,11 +102,16 @@
         <rdfs:range rdf:resource="&dha;Object"/>
     </owl:ObjectProperty>
     <!-- RepoCollection; RepoObject :basedOn,  isBasedOn  -->
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //  RepoObject
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
+    <owl:ObjectProperty rdf:about="&dha;hasRepoObject">
+         <owl:inverseOf rdf:resource="&dha;isRepoObjectOf"/>
+         <rdfs:domain rdf:resource="&dha;Object"/>
+         <rdfs:range rdf:resource="&dha;RepoObject"/>
+    </owl:ObjectProperty>
     <owl:ObjectProperty rdf:about="&dha;basedOn">
         <rdfs:domain>
             <owl:Class>
@@ -126,7 +132,7 @@
             </owl:Class>
         </rdfs:range>
     </owl:ObjectProperty>
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //  RepoCollection
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -156,14 +162,21 @@
         </rdfs:domain>
         <rdfs:range rdf:resource="&dha;DisseminationDescription"/>
     </owl:ObjectProperty>
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //  RepoObject
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
     <owl:ObjectProperty rdf:about="&dha;hasAnnotationDescription">
         <owl:inverseOf rdf:resource="&dha;isAnnotationDescriptionOf"/>
-        <rdfs:domain rdf:resource="&dha;RepoObject"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="&dha;RepoCollection"/>
+                    <owl:Class rdf:about="&dha;RepoObject"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="&dha;AnnotationDescription"/>
     </owl:ObjectProperty>
     <owl:ObjectProperty rdf:about="&dha;isPartOf">
@@ -176,7 +189,7 @@
         <rdfs:domain rdf:resource="&dha;RepoObject"/>
         <rdfs:range rdf:resource="&dha;Resource"/>
     </owl:ObjectProperty>
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //  DisseminationDescription
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -203,14 +216,14 @@
         <rdfs:domain rdf:resource="&dha;AnnotationProperty"/>
         <rdfs:range rdf:resource="&dha;Identifier"/>
     </owl:ObjectProperty>
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Datatype Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //  Collection
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -228,7 +241,7 @@
         </rdfs:domain>
         <rdfs:range rdf:resource="&xsd;anyURI"/>
     </owl:DatatypeProperty>
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //  MetadataDescription
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -249,7 +262,7 @@
         <rdfs:domain rdf:resource="&dha;MetadataDescription"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //  PreservationDescription
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -265,7 +278,7 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="&xsd;anyURI"/>
-        <rdfs:comment xml:lang="en">Unique identifier given given by a persistent identifier service like Handle, PURL et al. </rdfs:comment>
+        <rdfs:comment xml:lang="en">Unique identifier given by a persistent identifier service like Handle, PURL et al. </rdfs:comment>
     </owl:DatatypeProperty>
     <owl:DatatypeProperty rdf:about="&dha;hasAccessRights">
         <rdfs:domain rdf:resource="&dha;PreservationDescription"/>
@@ -276,7 +289,7 @@
         <rdfs:domain rdf:resource="&dha;PreservationDescription"/>
         <rdfs:range rdf:resource="&xsd;anyURI"/>
     </owl:DatatypeProperty>
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //  DisseminationService
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -307,7 +320,7 @@
         </rdfs:domain>
         <rdfs:range rdf:resource="&xsd;anyURI"/>
     </owl:DatatypeProperty>
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //  AnnotationProperty
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -316,7 +329,7 @@
         <rdfs:domain rdf:resource="&dha;AnnotationProperty"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //  Timespan
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -325,7 +338,7 @@
         <rdfs:domain rdf:resource="&dha;Timespan"/>
         <rdfs:range rdf:resource="&xsd;date"/>
     </owl:DatatypeProperty>
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //  Identifier
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -334,7 +347,7 @@
         <rdfs:domain rdf:resource="&dha;Identifier"/>
         <rdfs:range rdf:resource="&xsd;anyURI"/>
     </owl:DatatypeProperty>
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -355,7 +368,7 @@
         <skos:example xml:lang="en">The works of a writer</skos:example>
         <skos:example xml:lang="en">Posts on a blog</skos:example>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;Object">
         <!-- rdfs:subClassOf rdf:resource="&dha;Class"/ -->
         <rdfs:comment xml:lang="de">Eine konzeptionell abgegrenzte Entität eines realen oder virtuellen Dinges und/oder eine Manifestation einer kulturellen Äußerung.</rdfs:comment>
@@ -369,20 +382,20 @@
         <skos:example xml:lang="en">A diary or a diary entry</skos:example>
         <skos:example xml:lang="en">A blog entry</skos:example>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;RepoCollection">
         <!-- rdfs:subClassOf rdf:resource="&dha;Class"/ -->
         <rdfs:comment xml:lang="de">Eine digital repräsentierte Zusammenfassung von Objekten der Klasse RepoObject zu einem Ganzen in einem vertrauenswürdigen Langzeitarchiv.</rdfs:comment>
         <rdfs:comment xml:lang="en">A digitally represented aggregation of objects of the class RepoObject in a trustworthy long-term archive.</rdfs:comment>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;RepoObject">
         <!-- rdfs:subClassOf rdf:resource="&dha;Class"/ -->
         <rdfs:comment xml:lang="de">Digital repräsentierte, konzeptionell abgegrenzte Entität realer oder virtueller Dinge und/oder Manifestationen kultureller Äußerungen in einem vertrauenswürdigen
             Langzeitarchiv, bestehend aus einer oder mehreren Resource(n), zugeordneten Disseminatoren, Metadatenbeschreibungen und Annotationen.</rdfs:comment>
         <rdfs:comment xml:lang="en">A digitally represented, conceptually delimited entity of a real or virtual thing and/or a manifestation of a cultural expression, consisting of one or more resources, assigned disseminators, metadata descriptions and annotations.</rdfs:comment>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;MetadataDescription">
         <!-- rdfs:subClassOf rdf:resource="&dha;Class"/ -->
         <rdfs:comment xml:lang="de">Deskriptive Metadaten zu den Klassen Collection, Object, RepoCollection, RepoObject mittels qualifiziertem Dublin Core.</rdfs:comment>
@@ -396,7 +409,7 @@
         <skos:example xml:lang="en">Descriptive metadata for the digital representation of a collection, such as metadata management details, name of hosting institution, publication date
             etc.</skos:example>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;PreservationDescription">
         <!-- rdfs:subClassOf rdf:resource="&dha;Class"/ -->
         <rdfs:comment xml:lang="de">Technische Metadaten und Angaben zu Nutzungsrechten zu den Klassen RepoCollection und RepoObject in Form von URIs. Verpflichtend sind die Angabe einer persistenten
@@ -414,13 +427,13 @@
             ]]>
         </skos:example>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;AnnotationDescription">
         <!-- rdfs:subClassOf rdf:resource="&dha;Class"/ -->
         <rdfs:comment xml:lang="de">Wrapper für Instanzen der Klasse dha:AnnotationProperty.</rdfs:comment>
         <rdfs:comment xml:lang="en">Wrapper for instances of the class dha:AnnotationProperty.</rdfs:comment>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;AnnotationProperty">
         <!-- rdfs:subClassOf rdf:resource="&dha;Class"/ -->
         <rdfs:comment xml:lang="de">Für die Resource Discovery wichtige beschreibende Daten aus den Inhalten von Objekten mittels der Subklassen dha:NamedEntity, dha:Concept und
@@ -431,13 +444,13 @@
         <skos:example xml:lang="en">People, locations, works, artifacts etc. named in the text of a work</skos:example>
         <skos:example xml:lang="en">Classification of image content based on IconClass</skos:example>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;NamedEntity">
         <rdfs:subClassOf rdf:resource="&dha;AnnotationProperty"/>
         <rdfs:comment xml:lang="de">Wrapper für Instanzen der dha:AnnotationProperty-Subklassen: dha:Person, dha:Place, dha:Work, dha:Organization, dha:Artefact.</rdfs:comment>
         <rdfs:comment xml:lang="en">Wrapper for instances of the dha:AnnotationProperty subclasses: dha:Person, dha:Place, dha:Work, dha:Organization, dha:Artefact.</rdfs:comment>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;Person">
         <rdfs:subClassOf rdf:resource="&dha;NamedEntity"/>
         <skos:example>
@@ -452,11 +465,11 @@
             ]]>
         </skos:example>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;Place">
         <rdfs:subClassOf rdf:resource="&dha;NamedEntity"/>
         <skos:example>
-            <![CDATA[             
+            <![CDATA[
                 <dha:Place>
                     <dha:hasCatchPhrase>Graz</dha:hasCatchPhrase>
                 </dha:Place>
@@ -480,7 +493,7 @@
                ]]>
         </skos:example>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;Work">
         <rdfs:subClassOf rdf:resource="&dha;NamedEntity"/>
         <skos:example>
@@ -489,9 +502,9 @@
                  <dha:hasCatchPhrase>Der Mann ohne Eigenschaften</dha:hasCatchPhrase>
             </dha:Work>
             ]]>
-        </skos:example>    
+        </skos:example>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;Organization">
         <rdfs:subClassOf rdf:resource="&dha;NamedEntity"/>
         <skos:example>
@@ -507,7 +520,7 @@
             ]]>
         </skos:example>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;Artefact">
         <rdfs:subClassOf rdf:resource="&dha;NamedEntity"/>
         <skos:example>
@@ -520,9 +533,9 @@
                 </dha:Identifier>
             </dha:Artefact>
             ]]>
-        </skos:example>         
+        </skos:example>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;Concept">
         <rdfs:subClassOf rdf:resource="&dha;AnnotationProperty"/>
         <skos:example>
@@ -533,7 +546,7 @@
             ]]>
         </skos:example>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;Timespan">
         <rdfs:subClassOf rdf:resource="&dha;AnnotationProperty"/>
         <skos:example>
@@ -544,13 +557,13 @@
             ]]>
         </skos:example>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;DisseminationDescription">
         <!-- rdfs:subClassOf rdf:resource="&dha;Class"/ -->
         <rdfs:comment xml:lang="de">Wrapper für Instanzen der Klasse dha:DisseminationService.</rdfs:comment>
         <rdfs:comment xml:lang="en">Wrapper for instances of the class dha:DisseminationService.</rdfs:comment>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;DisseminationService">
         <!-- rdfs:subClassOf rdf:resource="&dha;Class"/ -->
         <rdfs:comment xml:lang="de">Formale Beschreibung von Diensten (Services), die zur Präsentation von Objektinhalten dienen. Sie erzeugen verschiedene Präsentationsformen von Instanzen der Klassen
@@ -578,7 +591,7 @@
             ]]>
         </skos:example>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;Resource">
         <!-- rdfs:subClassOf rdf:resource="&dha;Class"/ -->
         <rdfs:comment xml:lang="de">Kleinste kohärente über einen URL referenzierbare Einheit einer Instanz der Klasse dha:RepoObject in einem vertrauenswürdigen Repositorium, technisch repräsentiert durch eine Bytesequenz.</rdfs:comment>
@@ -590,7 +603,7 @@
         <skos:example xml:lang="en">URL that refers to the byte sequence of an image in an external trusted repository</skos:example>
         <skos:example xml:lang="de">URL that refers to the byte sequence of an image in another instance of the class dha:RepoObject in the same repository</skos:example>
     </owl:Class>
-    
+
     <owl:Class rdf:about="&dha;Identifier">
         <!-- rdfs:subClassOf rdf:resource="&dha;Class"/ -->
         <rdfs:comment xml:lang="de">Eine URI, die eine Entität eindeutig, persistent und optional maschinenlesbar referenziert. </rdfs:comment>
@@ -611,7 +624,7 @@
             ]]>
         </skos:example>
     </owl:Class>
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Subclasses of Collection
