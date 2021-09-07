@@ -1,189 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE RDF [
-   <!ENTITY dha "https://digital-humanities.at/schema#"> 
-   <!ENTITY ex "https://example.org/"> 
-   <!ENTITY premis "http://www.loc.gov/premis/rdf/v1#"> 
- ]> 
 
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dha="&dha;" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/"
-    xmlns:svcs="http://rdfs.org/sioc/services#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:premis="&premis;">
-    <!-- 
+<!ENTITY dha "https://digital-humanities.at/schema#">
+<!ENTITY ex "https://example.org/">
+<!ENTITY premis "http://www.loc.gov/premis/rdf/v1#">
+ ]>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dha="&dha;"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:svcs="http://rdfs.org/sioc/services#"
+	xmlns:doap="http://usefulinc.com/ns/doap#"
+	xmlns:premis="&premis;">
+	<!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Beispiel 1
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <dha:RepoObject rdf:about="http://digitale-edition.at/o:obj.1">
-        <dha:hasMetadataDescription rdf:parseType="Resource">
-            <dc:title>Beispielobjekt 1</dc:title>
-            <dc:identifier>o:obj.1</dc:identifier>
-            <dc:creator>Johannes Stigler</dc:creator>
-        </dha:hasMetadataDescription>
-        <dha:hasPreservationDescription rdf:parseType="Resource">
-            <premis:hasIdentifier rdf:resource="http://hdl.handle.net/11741/500.1"/>
-            <dha:hasLicense rdf:resource="https://creativecommons.org/licenses/by-nc/4.0/"/>
-        </dha:hasPreservationDescription>
-        <dha:hasAnnotationDescription rdf:parseType="Resource">
-            <dha:Place rdf:parseType="Resource">
-                <dha:hasCatchPhrase>Wien</dha:hasCatchPhrase>
-            </dha:Place>
-        </dha:hasAnnotationDescription>
-        <dha:hasAnnotationDescription rdf:parseType="Resource">
-            <dha:Person rdf:parseType="Resource">
-                <dha:hasCatchPhrase>Matej Durco</dha:hasCatchPhrase>
-            </dha:Person>
-        </dha:hasAnnotationDescription>
-        <dha:hasAnnotationDescription rdf:parseType="Resource">
-            <dha:NamedEntity rdf:parseType="Resource">
-                <dha:Organization rdf:parseType="Resource">
-                    <dha:hasCatchPhrase>Österreichische Akademie der Wissenschaften</dha:hasCatchPhrase>
-                    <dha:hasIdentifier rdf:parseType="Resource">
-                        <premis:hasIdentifier>http://d-nb.info/gnd/1083300504</premis:hasIdentifier>
-                        <dha:conformsTo rdf:resource="http://d-nb.info/gnd"/>
-                        <dha:hasParsableMetadata rdf:resource="http://d-nb.info/gnd/1083300504/about/lds.rdf"/>
-                    </dha:hasIdentifier>
-                </dha:Organization>
-            </dha:NamedEntity>
-        </dha:hasAnnotationDescription>
-        <dha:hasDisseminationDescription rdf:parseType="Resource">
-            <premis:hasIdentifier>http://digitale-edition.at/o:obj.1</premis:hasIdentifier>
-            <dha:conformsTo rdf:resource="&dha;/service/api/get"/>
-            <dha:hasMimeType rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
-        </dha:hasDisseminationDescription>
-        <dha:hasDisseminationService rdf:parseType="Resource">
-            <premis:hasIdentifier>http://digitale-edition.at/o:obj.1/sdef:TEI/getPDF</premis:hasIdentifier>
-            <dha:conformsTo rdf:resource="&dha;/service/api/getpdf"/>
-            <dha:hasMimeType rdf:resource="https://www.iana.org/assignments/media-types/application/pdf"/>
-        </dha:hasDisseminationService>
-        <dha:hasDisseminationService rdf:parseType="Resource">
-            <premis:hasIdentifier>http://digitale-edition.at/o:obj.1/iiif/IMAGE</premis:hasIdentifier>
-            <dha:conformsTo rdf:resource="http://iiif.io/api/image"/>
-        </dha:hasDisseminationService>
-    </dha:RepoObject>
-    <!-- 
+	<dha:RepoObject rdf:about="http://digitale-edition.at/o:obj.1">
+		<rdfs:label xml:lang="de">Beispielobjekt 1</rdfs:label>
+		<dha:hasMetadataDescription rdf:parseType="Resource">
+			<rdf:type rdf:resource="&dha;MetadataDescription"/>
+			<dc:title>Beispielobjekt 1</dc:title>
+			<dc:identifier>o:obj.1</dc:identifier>
+			<dc:creator>Johannes Stigler</dc:creator>
+		</dha:hasMetadataDescription>
+		<dha:hasPreservationDescription rdf:parseType="Resource">
+			<rdf:type rdf:resource="&dha;PreservationDescription"/>
+			<premis:hasIdentifier>http://hdl.handle.net/11741/500.1</premis:hasIdentifier>
+			<dha:hasLicense>https://creativecommons.org/licenses/by-nc/4.0/</dha:hasLicense>
+		</dha:hasPreservationDescription>
+		<dha:hasAnnotationDescription rdf:parseType="Resource">
+			<rdf:type rdf:resource="&dha;AnnotationDescription"/>
+			<dha:hasAnnotationProperty>
+				<dha:Place rdf:about="https://www.geonames.org/2761369">
+					<dha:hasCatchPhrase>Wien</dha:hasCatchPhrase>
+					<dha:hasIdentifier rdf:parseType="Resource">
+						<rdf:type rdf:resource="&dha;Identifier"/>
+						<premis:hasIdentifier>https://www.geonames.org/2761369</premis:hasIdentifier>
+						<dha:conformsTo>https://www.geonames.org/</dha:conformsTo>
+						<dha:hasParsableMetadata>https://sws.geonames.org/2761369/about.rdf</dha:hasParsableMetadata>
+					</dha:hasIdentifier>
+				</dha:Place>
+			</dha:hasAnnotationProperty>
+			<dha:hasAnnotationProperty>
+				<dha:Person rdf:about="https://id.acdh.oeaw.ac.at/mdurco">
+					<dha:hasCatchPhrase>Matej Durco</dha:hasCatchPhrase>
+					<dha:hasIdentifier rdf:parseType="Resource">
+						<rdf:type rdf:resource="&dha;Identifier"/>
+						<premis:hasIdentifier>https://id.acdh.oeaw.ac.at/mdurco</premis:hasIdentifier>
+						<dha:conformsTo>https://id.acdh.oeaw.ac.at/</dha:conformsTo>
+						<dha:hasParsableMetadata>https://arche.acdh.oeaw.ac.at/api/44239/metadata</dha:hasParsableMetadata>
+					</dha:hasIdentifier>
+				</dha:Person>
+			</dha:hasAnnotationProperty>
+			<dha:hasAnnotationProperty>
+				<dha:Organization rdf:about="http://d-nb.info/gnd/1083300504">
+					<dha:hasCatchPhrase>Österreichische Akademie der Wissenschaften</dha:hasCatchPhrase>
+					<dha:hasIdentifier rdf:parseType="Resource">
+						<rdf:type rdf:resource="&dha;Identifier"/>
+						<premis:hasIdentifier>http://d-nb.info/gnd/1083300504</premis:hasIdentifier>
+						<dha:conformsTo>http://d-nb.info/gnd</dha:conformsTo>
+						<dha:hasParsableMetadata>http://d-nb.info/gnd/1083300504/about/lds.rdf</dha:hasParsableMetadata>
+					</dha:hasIdentifier>
+				</dha:Organization>
+			</dha:hasAnnotationProperty>
+		</dha:hasAnnotationDescription>
+		<dha:hasDisseminationDescription rdf:parseType="Resource">
+			<rdf:type rdf:resource="&dha;DisseminationDescription"/>
+			<dha:hasDisseminationService rdf:parseType="Resource">
+				<rdf:type rdf:resource="&dha;DisseminationService"/>
+				<premis:hasIdentifier>http://digitale-edition.at/o:obj.1</premis:hasIdentifier>
+				<dha:conformsTo>&dha;/service/api/get</dha:conformsTo>
+				<dha:hasMimeType>https://www.iana.org/assignments/media-types/text/html</dha:hasMimeType>
+			</dha:hasDisseminationService>
+			<dha:hasDisseminationService rdf:parseType="Resource">
+				<rdf:type rdf:resource="&dha;DisseminationService"/>
+				<premis:hasIdentifier>http://digitale-edition.at/o:obj.1/sdef:TEI/getPDF</premis:hasIdentifier>
+				<dha:conformsTo>&dha;/service/api/getpdf</dha:conformsTo>
+				<dha:hasMimeType>https://www.iana.org/assignments/media-types/application/pdf</dha:hasMimeType>
+			</dha:hasDisseminationService>
+			<dha:hasDisseminationService rdf:parseType="Resource">
+				<rdf:type rdf:resource="&dha;DisseminationService"/>
+				<premis:hasIdentifier>http://digitale-edition.at/o:obj.1/iiif/IMAGE</premis:hasIdentifier>
+				<dha:conformsTo>http://iiif.io/api/image</dha:conformsTo>
+			</dha:hasDisseminationService>
+		</dha:hasDisseminationDescription>
+	</dha:RepoObject>
+	<!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Beispiel 2
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <dha:RepoObject rdf:about="http://digitale-edition.at/o:obj.2">
-        <dha:hasMetadataDescription rdf:parseType="Resource">
-            <dc:title>Beispielobjekt 2</dc:title>
-            <dc:identifier>o:obj.2</dc:identifier>
-            <dc:creator>Gunter Vasold</dc:creator>
-        </dha:hasMetadataDescription>
-        <dha:hasPreservationDescription rdf:parseType="Resource">
-            <premis:hasIdentifier rdf:resource="http://hdl.handle.net/11741/500.2"/>
-            <dha:hasLicense rdf:resource="https://creativecommons.org/licenses/by-nc/4.0/"/>
-        </dha:hasPreservationDescription>
-        <dha:hasAnnotationDescription rdf:parseType="Resource">
-            <dha:Place rdf:parseType="Resource">
-                <dha:hasCatchPhrase>Graz</dha:hasCatchPhrase>
-            </dha:Place>
-        </dha:hasAnnotationDescription>
-        <dha:hasAnnotationDescription rdf:parseType="Resource">
-            <dha:Timespan rdf:parseType="Resource">
-                <dha:hasCatchPhrase>2003 TO 2019</dha:hasCatchPhrase>
-            </dha:Timespan>
-        </dha:hasAnnotationDescription>
-        <dha:hasAnnotationDescription rdf:parseType="Resource">
-            <dha:Concept rdf:parseType="Resource">
-                <dha:hasCatchPhrase>Trusted Repository</dha:hasCatchPhrase>
-            </dha:Concept>
-        </dha:hasAnnotationDescription>
-        <dha:hasDisseminationDescription rdf:parseType="Resource">
-            <premis:hasIdentifier>http://digitale-edition.at/o:obj.2</premis:hasIdentifier>
-            <dha:conformsTo rdf:resource="&dha;/service/api/get"/>
-            <dha:hasMimeType rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
-        </dha:hasDisseminationDescription>
-        <dha:hasDisseminationDescription rdf:parseType="Resource">
-            <premis:hasIdentifier>http://digitale-edition.at/o:obj.2/sdef:Ontology/get</premis:hasIdentifier>
-            <dha:conformsTo rdf:resource="&dha;/service/api/getpdf"/>
-            <dha:hasMimeType rdf:resource="https://www.iana.org/assignments/media-types/text/xml"/>
-        </dha:hasDisseminationDescription>
-    </dha:RepoObject>
-    <!-- 
+	<dha:RepoObject rdf:about="http://digitale-edition.at/o:obj.2">
+		<rdfs:label xml:lang="de">Beispielobjekt 2</rdfs:label>
+		<dha:hasMetadataDescription rdf:parseType="Resource">
+			<rdf:type rdf:resource="&dha;MetadataDescription"/>
+			<dc:title>Beispielobjekt 2</dc:title>
+			<dc:identifier>o:obj.2</dc:identifier>
+			<dc:creator>Gunter Vasold</dc:creator>
+		</dha:hasMetadataDescription>
+		<dha:hasPreservationDescription rdf:parseType="Resource">
+			<rdf:type rdf:resource="&dha;PreservationDescription"/>
+			<premis:hasIdentifier>http://hdl.handle.net/11741/500.2</premis:hasIdentifier>
+			<dha:hasLicense>https://creativecommons.org/licenses/by-nc/4.0/</dha:hasLicense>
+		</dha:hasPreservationDescription>
+		<dha:hasAnnotationDescription rdf:parseType="Resource">
+			<rdf:type rdf:resource="&dha;AnnotationDescription"/>
+			<dha:hasAnnotationProperty>
+				<dha:Place rdf:about="https://www.geonames.org/2778067">
+					<dha:hasCatchPhrase>Graz</dha:hasCatchPhrase>
+					<dha:hasIdentifier rdf:parseType="Resource">
+						<rdf:type rdf:resource="&dha;Identifier"/>
+						<premis:hasIdentifier>https://www.geonames.org/2778067</premis:hasIdentifier>
+						<dha:conformsTo>https://www.geonames.org/</dha:conformsTo>
+						<dha:hasParsableMetadata>https://sws.geonames.org/2778067/about.rdf</dha:hasParsableMetadata>
+					</dha:hasIdentifier>
+				</dha:Place>
+			</dha:hasAnnotationProperty>
+			<dha:hasAnnotationProperty rdf:parseType="Resource">
+				<rdf:type rdf:resource="&dha;Timespan"/>
+				<dha:hasCatchPhrase>2003 TO 2019</dha:hasCatchPhrase>
+			</dha:hasAnnotationProperty>
+			<dha:hasAnnotationProperty>
+				<dha:Concept rdf:about="http://id.loc.gov/authorities/subjects/sh2006003967">
+					<dha:hasCatchPhrase>Institutional repositories</dha:hasCatchPhrase>
+					<dha:hasIdentifier rdf:parseType="Resource">
+						<rdf:type rdf:resource="&dha;Identifier"/>
+						<premis:hasIdentifier>http://id.loc.gov/authorities/subjects/sh2006003967</premis:hasIdentifier>
+						<dha:conformsTo>http://id.loc.gov/authorities/subjects/</dha:conformsTo>
+						<dha:hasParsableMetadata>http://id.loc.gov/authorities/subjects/sh2006003967.rdf</dha:hasParsableMetadata>
+					</dha:hasIdentifier>
+				</dha:Concept>
+			</dha:hasAnnotationProperty>
+		</dha:hasAnnotationDescription>
+		<dha:hasDisseminationDescription rdf:parseType="Resource">
+			<rdf:type rdf:resource="&dha;DisseminationDescription"/>
+			<dha:hasDisseminationService rdf:parseType="Resource">
+				<rdf:type rdf:resource="&dha;DisseminationService"/>
+				<premis:hasIdentifier>http://digitale-edition.at/o:obj.2</premis:hasIdentifier>
+				<dha:conformsTo>&dha;/service/api/get</dha:conformsTo>
+				<dha:hasMimeType>https://www.iana.org/assignments/media-types/text/html</dha:hasMimeType>
+			</dha:hasDisseminationService>
+			<dha:hasDisseminationService rdf:parseType="Resource">
+				<rdf:type rdf:resource="&dha;DisseminationService"/>
+				<premis:hasIdentifier>http://digitale-edition.at/o:obj.2/sdef:Ontology/get</premis:hasIdentifier>
+				<dha:conformsTo>&dha;/service/api/getpdf</dha:conformsTo>
+				<dha:hasMimeType>https://www.iana.org/assignments/media-types/text/xml</dha:hasMimeType>
+			</dha:hasDisseminationService>
+		</dha:hasDisseminationDescription>
+	</dha:RepoObject>
+	<!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Beispiel 3
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <dha:Collection rdf:about="http://digitale-edition.at/context:dse">
-        <dha:hasType rdf:resource="&dha;CollectionType/DigitalScholarlyEdition"/>
-        <dha:hasMetadataDescription rdf:parseType="Resource">
-            <dc:title>Beispielsammlung</dc:title>
-            <dc:identifier>context:dse</dc:identifier>
-            <dc:creator>Johannes Stigler</dc:creator>
-            <dc:rights>Creative Commons NonCommercial 4.0 International (CC BY-NC 4.0)</dc:rights>
-        </dha:hasMetadataDescription>
-        <dha:hasRepoCollection rdf:parseType="Resource">
-            <dha:hasRepoObject rdf:resource="http://digitale-edition.at/o:obj.1"/>
-            <dha:hasRepoObject rdf:resource="http://digitale-edition.at/o:obj.2"/>
-        </dha:hasRepoCollection>
-    </dha:Collection>
-    <!-- 
+	<dha:Collection rdf:about="http://digitale-edition.at/context:dse">
+		<rdf:type rdf:resource="&dha;DigitalScholarlyEdition"/>
+		<rdfs:label xml:lang="de">Beispielsammlung</rdfs:label>
+		<dha:hasMetadataDescription rdf:parseType="Resource">
+			<rdf:type rdf:resource="&dha;MetadataDescription"/>
+			<dc:title>Beispielsammlung</dc:title>
+			<dc:identifier>context:dse</dc:identifier>
+			<dc:creator>Johannes Stigler</dc:creator>
+			<dc:rights>Creative Commons NonCommercial 4.0 International (CC BY-NC 4.0)</dc:rights>
+		</dha:hasMetadataDescription>
+		<dha:hasRepoCollection>
+			<dha:RepoCollection rdf:about="http://digitale-edition.at/samplerepocollection">
+				<dha:hasRepoObject rdf:resource="http://digitale-edition.at/o:obj.1"/>
+				<dha:hasRepoObject rdf:resource="http://digitale-edition.at/o:obj.2"/>
+			</dha:RepoCollection>
+		</dha:hasRepoCollection>
+	</dha:Collection>
+	<!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Beispiel 4
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-    <dha:Collection rdf:about="http://digitale-edition.at/context:dse">
-        <dha:hasType rdf:resource="&dha;CollectionType/DigitalScholarlyEdition"/>
-        <dha:hasMetadataDescription rdf:parseType="Resource">
-            <dc:title>Beispielsammlung</dc:title>
-            <dc:identifier>context:dse</dc:identifier>
-            <dc:creator>Johannes Stigler</dc:creator>
-            <dc:rights>Creative Commons NonCommercial 4.0 International (CC BY-NC 4.0)</dc:rights>
-        </dha:hasMetadataDescription>
-        <dha:hasRepoCollection rdf:parseType="Resource">
-            <dha:hasRepoObject rdf:resource="http://digitale-edition.at/o:obj.1"/>
-            <dha:hasRepoObject rdf:resource="http://digitale-edition.at/o:obj.2"/>
-        </dha:hasRepoCollection>
-    </dha:Collection>
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Beispiel 5: Digitale Editionen an der Österreichischen Nationalbibliothek
+    // Beispiel 4: Digitale Editionen an der Österreichischen Nationalbibliothek
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <dha:Collection rdf:about="http://edition.onb.ac.at">
-        <dha:hasType rdf:resource="&dha;CollectionType/DigitalScholarlyEdition"/>
-        <dha:hasMetadataDescription rdf:parseType="Resource">
-            <dc:title>Digitale Editionen an der Österreichischen Nationalbibliothek</dc:title>
-            <dc:identifier>http://edition.onb.ac.at</dc:identifier>
-            <dc:publisher>Österreichischen Nationalbibliothek</dc:publisher>
-            <dc:rights>Creative Commons NonCommercial 4.0 International (CC BY-NC 4.0)</dc:rights>
-        </dha:hasMetadataDescription>
-        <dha:hasRepoCollection rdf:resource="http://edition.onb.ac.at/okopenko"/>
-    </dha:Collection>
-    
-    <dha:RepoCollection rdf:about="http://edition.onb.ac.at/okopenko">
-        <dha:hasType rdf:resource="&dha;CollectionType/DigitalScholarlyEdition"/>
-        <dha:hasMetadataDescription rdf:parseType="Resource">
-            <dc:title>Tagebücher Andreas Okopenko</dc:title>
-            <dc:identifier>http://edition.onb.ac.at/okopenko</dc:identifier>
-            <dha:hasFunder rdf:resource="http://d-nb.info/gnd/2054142-9"/>
-            <dha:hasFunder>Fonds zur Förderung des wissenschaftlichen Forschung</dha:hasFunder>
-            <dc:publisher>Österreichischen Nationalbibliothek</dc:publisher>
-            <dc:rights>Creative Commons NonCommercial 4.0 International (CC BY-NC 4.0)</dc:rights>
-        </dha:hasMetadataDescription>
-        <dha:RepoObject rdf:parseType="Resource">
-            <dha:hasMetadataDescription rdf:parseType="Resource">
-                <dc:title>Tagebuch 19.12.1949–04.01.1950</dc:title>
-                <dc:contributor rdf:resource="http://d-nb.info/gnd/2020893-5"/>
-                <dc:contributor>Österreichische Nationalbibliothek</dc:contributor>
-                <dc:contributor/>
-            </dha:hasMetadataDescription>
-            <dha:hasPreservationDescription rdf:parseType="Resource">
-                <premis:hasIdentifier rdf:resource="http://hdl.handle.net/11741/500.2"/>
-                <dha:hasLicense rdf:resource="https://creativecommons.org/licenses/by-nc/4.0/"/>
-            </dha:hasPreservationDescription>
-        </dha:RepoObject>      
-    </dha:RepoCollection>
-  
+	<dha:Collection rdf:about="http://edition.onb.ac.at">
+		<rdf:type rdf:resource="&dha;DigitalScholarlyEdition"/>
+		<rdfs:label xml:lang="de">Digitale Editionen an der Österreichischen Nationalbibliothek</rdfs:label>
+		<dha:hasMetadataDescription rdf:parseType="Resource">
+			<rdf:type rdf:resource="&dha;MetadataDescription"/>
+			<dc:title>Digitale Editionen an der Österreichischen Nationalbibliothek</dc:title>
+			<dc:identifier>http://edition.onb.ac.at</dc:identifier>
+			<dc:publisher>Österreichische Nationalbibliothek</dc:publisher>
+			<dc:rights>Creative Commons NonCommercial 4.0 International (CC BY-NC 4.0)</dc:rights>
+		</dha:hasMetadataDescription>
+		<dha:hasPart>
+			<dha:Collection rdf:about="http://edition.onb.ac.at/okopenko">
+				<dha:hasRepoCollection rdf:resource="http://edition.onb.ac.at/okopenko"/>
+			</dha:Collection>
+		</dha:hasPart>
+	</dha:Collection>
+	<dha:RepoCollection rdf:about="http://edition.onb.ac.at/okopenko">
+		<rdfs:label xml:lang="de">Tagebücher Andreas Okopenko</rdfs:label>
+		<dha:hasMetadataDescription rdf:parseType="Resource">
+			<rdf:type rdf:resource="&dha;MetadataDescription"/>
+			<dc:title>Tagebücher Andreas Okopenko</dc:title>
+			<dc:identifier>http://edition.onb.ac.at/okopenko</dc:identifier>
+			<dc:contributor>Österreichische Nationalbibliothek</dc:contributor>
+			<dc:publisher>Österreichische Nationalbibliothek</dc:publisher>
+			<dc:rights>Creative Commons NonCommercial 4.0 International (CC BY-NC 4.0)</dc:rights>
+			<!-- <dha:hasFunder rdf:resource="http://d-nb.info/gnd/2054142-9"/><dha:hasFunder>Fonds zur Förderung des wissenschaftlichen Forschung</dha:hasFunder> -->
+		</dha:hasMetadataDescription>
+		<dha:hasPart>
+			<dha:RepoObject rdf:about="https://edition.onb.ac.at/okopenko/o:oko.tb-19491219-19500104/">
+				<rdfs:label xml:lang="de">Tagebuch 19.12.1949–04.01.1950</rdfs:label>
+				<dha:hasMetadataDescription rdf:parseType="Resource">
+					<rdf:type rdf:resource="&dha;MetadataDescription"/>
+					<dc:title>Tagebuch 19.12.1949–04.01.1950</dc:title>
+					<dc:identifier>https://edition.onb.ac.at/okopenko/o:oko.tb-19491219-19500104/</dc:identifier>
+					<dc:contributor>Österreichische Nationalbibliothek</dc:contributor>
+					<!-- <dc:contributor rdf:resource="http://d-nb.info/gnd/2020893-5"/> -->
+				</dha:hasMetadataDescription>
+				<dha:hasPreservationDescription rdf:parseType="Resource">
+					<rdf:type rdf:resource="&dha;PreservationDescription"/>
+					<premis:hasIdentifier>http://hdl.handle.net/11741/500.2</premis:hasIdentifier>
+					<dha:hasLicense>https://creativecommons.org/licenses/by-nc/4.0/</dha:hasLicense>
+				</dha:hasPreservationDescription>
+			</dha:RepoObject>
+		</dha:hasPart>
+	</dha:RepoCollection>
 </rdf:RDF>

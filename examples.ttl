@@ -1,0 +1,185 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns0: <https://digital-humanities.at/schema#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://www.loc.gov/premis/rdf/v1#> .
+
+<http://digitale-edition.at/o:obj.1>
+  a <https://digital-humanities.at/schema#RepoObject> ;
+  rdfs:label "Beispielobjekt 1"@de ;
+  ns0:hasMetadataDescription [
+    a ns0:MetadataDescription ;
+    dc11:title "Beispielobjekt 1" ;
+    dc11:identifier "o:obj.1" ;
+    dc11:creator "Johannes Stigler"
+  ] ;
+  ns0:hasPreservationDescription [
+    a ns0:PreservationDescription ;
+    ns1:hasIdentifier "http://hdl.handle.net/11741/500.1" ;
+    ns0:hasLicense "https://creativecommons.org/licenses/by-nc/4.0/"
+  ] ;
+  ns0:hasAnnotationDescription [
+    a ns0:AnnotationDescription ;
+    ns0:hasAnnotationProperty <https://www.geonames.org/2761369>, <https://id.acdh.oeaw.ac.at/mdurco>, <http://d-nb.info/gnd/1083300504>
+  ] ;
+  ns0:hasDisseminationDescription [
+    a ns0:DisseminationDescription ;
+    ns0:hasDisseminationService [
+      a ns0:DisseminationService ;
+      ns1:hasIdentifier "http://digitale-edition.at/o:obj.1" ;
+      ns0:conformsTo "https://digital-humanities.at/schema#/service/api/get" ;
+      ns0:hasMimeType "https://www.iana.org/assignments/media-types/text/html"
+    ], [
+      a ns0:DisseminationService ;
+      ns1:hasIdentifier "http://digitale-edition.at/o:obj.1/sdef:TEI/getPDF" ;
+      ns0:conformsTo "https://digital-humanities.at/schema#/service/api/getpdf" ;
+      ns0:hasMimeType "https://www.iana.org/assignments/media-types/application/pdf"
+    ], [
+      a ns0:DisseminationService ;
+      ns1:hasIdentifier "http://digitale-edition.at/o:obj.1/iiif/IMAGE" ;
+      ns0:conformsTo "http://iiif.io/api/image"
+    ]
+  ] .
+
+<https://www.geonames.org/2761369>
+  a ns0:Place ;
+  ns0:hasCatchPhrase "Wien" ;
+  ns0:hasIdentifier [
+    a ns0:Identifier ;
+    ns1:hasIdentifier "https://www.geonames.org/2761369" ;
+    ns0:conformsTo "https://www.geonames.org/" ;
+    ns0:hasParsableMetadata "https://sws.geonames.org/2761369/about.rdf"
+  ] .
+
+<https://id.acdh.oeaw.ac.at/mdurco>
+  a ns0:Person ;
+  ns0:hasCatchPhrase "Matej Durco" ;
+  ns0:hasIdentifier [
+    a ns0:Identifier ;
+    ns1:hasIdentifier "https://id.acdh.oeaw.ac.at/mdurco" ;
+    ns0:conformsTo "https://id.acdh.oeaw.ac.at/" ;
+    ns0:hasParsableMetadata "https://arche.acdh.oeaw.ac.at/api/44239/metadata"
+  ] .
+
+<http://d-nb.info/gnd/1083300504>
+  a ns0:Organization ;
+  ns0:hasCatchPhrase "Österreichische Akademie der Wissenschaften" ;
+  ns0:hasIdentifier [
+    a ns0:Identifier ;
+    ns1:hasIdentifier "http://d-nb.info/gnd/1083300504" ;
+    ns0:conformsTo "http://d-nb.info/gnd" ;
+    ns0:hasParsableMetadata "http://d-nb.info/gnd/1083300504/about/lds.rdf"
+  ] .
+
+<http://digitale-edition.at/o:obj.2>
+  a ns0:RepoObject ;
+  rdfs:label "Beispielobjekt 2"@de ;
+  ns0:hasMetadataDescription [
+    a ns0:MetadataDescription ;
+    dc11:title "Beispielobjekt 2" ;
+    dc11:identifier "o:obj.2" ;
+    dc11:creator "Gunter Vasold"
+  ] ;
+  ns0:hasPreservationDescription [
+    a ns0:PreservationDescription ;
+    ns1:hasIdentifier "http://hdl.handle.net/11741/500.2" ;
+    ns0:hasLicense "https://creativecommons.org/licenses/by-nc/4.0/"
+  ] ;
+  ns0:hasAnnotationDescription [
+    a ns0:AnnotationDescription ;
+    ns0:hasAnnotationProperty <https://www.geonames.org/2778067>, [
+      a ns0:Timespan ;
+      ns0:hasCatchPhrase "2003 TO 2019"
+    ], <http://id.loc.gov/authorities/subjects/sh2006003967>
+  ] ;
+  ns0:hasDisseminationDescription [
+    a ns0:DisseminationDescription ;
+    ns0:hasDisseminationService [
+      a ns0:DisseminationService ;
+      ns1:hasIdentifier "http://digitale-edition.at/o:obj.2" ;
+      ns0:conformsTo "https://digital-humanities.at/schema#/service/api/get" ;
+      ns0:hasMimeType "https://www.iana.org/assignments/media-types/text/html"
+    ], [
+      a ns0:DisseminationService ;
+      ns1:hasIdentifier "http://digitale-edition.at/o:obj.2/sdef:Ontology/get" ;
+      ns0:conformsTo "https://digital-humanities.at/schema#/service/api/getpdf" ;
+      ns0:hasMimeType "https://www.iana.org/assignments/media-types/text/xml"
+    ]
+  ] .
+
+<https://www.geonames.org/2778067>
+  a ns0:Place ;
+  ns0:hasCatchPhrase "Graz" ;
+  ns0:hasIdentifier [
+    a ns0:Identifier ;
+    ns1:hasIdentifier "https://www.geonames.org/2778067" ;
+    ns0:conformsTo "https://www.geonames.org/" ;
+    ns0:hasParsableMetadata "https://sws.geonames.org/2778067/about.rdf"
+  ] .
+
+<http://id.loc.gov/authorities/subjects/sh2006003967>
+  a ns0:Concept ;
+  ns0:hasCatchPhrase "Institutional repositories" ;
+  ns0:hasIdentifier [
+    a ns0:Identifier ;
+    ns1:hasIdentifier "http://id.loc.gov/authorities/subjects/sh2006003967" ;
+    ns0:conformsTo "http://id.loc.gov/authorities/subjects/" ;
+    ns0:hasParsableMetadata "http://id.loc.gov/authorities/subjects/sh2006003967.rdf"
+  ] .
+
+<http://digitale-edition.at/context:dse>
+  a ns0:Collection, ns0:DigitalScholarlyEdition ;
+  rdfs:label "Beispielsammlung"@de ;
+  ns0:hasMetadataDescription [
+    a ns0:MetadataDescription ;
+    dc11:title "Beispielsammlung" ;
+    dc11:identifier "context:dse" ;
+    dc11:creator "Johannes Stigler" ;
+    dc11:rights "Creative Commons NonCommercial 4.0 International (CC BY-NC 4.0)"
+  ] ;
+  ns0:hasRepoCollection <http://digitale-edition.at/samplerepocollection> .
+
+<http://digitale-edition.at/samplerepocollection>
+  a ns0:RepoCollection ;
+  ns0:hasRepoObject <http://digitale-edition.at/o:obj.1>, <http://digitale-edition.at/o:obj.2> .
+
+<http://edition.onb.ac.at>
+  a ns0:Collection, ns0:DigitalScholarlyEdition ;
+  rdfs:label "Digitale Editionen an der Österreichischen Nationalbibliothek"@de ;
+  ns0:hasMetadataDescription [
+    a ns0:MetadataDescription ;
+    dc11:title "Digitale Editionen an der Österreichischen Nationalbibliothek" ;
+    dc11:identifier "http://edition.onb.ac.at" ;
+    dc11:publisher "Österreichische Nationalbibliothek" ;
+    dc11:rights "Creative Commons NonCommercial 4.0 International (CC BY-NC 4.0)"
+  ] ;
+  ns0:hasPart <http://edition.onb.ac.at/okopenko> .
+
+<http://edition.onb.ac.at/okopenko>
+  a ns0:Collection, ns0:RepoCollection ;
+  ns0:hasRepoCollection <http://edition.onb.ac.at/okopenko> ;
+  rdfs:label "Tagebücher Andreas Okopenko"@de ;
+  ns0:hasMetadataDescription [
+    a ns0:MetadataDescription ;
+    dc11:title "Tagebücher Andreas Okopenko" ;
+    dc11:identifier "http://edition.onb.ac.at/okopenko" ;
+    dc11:contributor "Österreichische Nationalbibliothek" ;
+    dc11:publisher "Österreichische Nationalbibliothek" ;
+    dc11:rights "Creative Commons NonCommercial 4.0 International (CC BY-NC 4.0)"
+  ] ;
+  ns0:hasPart <https://edition.onb.ac.at/okopenko/o:oko.tb-19491219-19500104/> .
+
+<https://edition.onb.ac.at/okopenko/o:oko.tb-19491219-19500104/>
+  a ns0:RepoObject ;
+  rdfs:label "Tagebuch 19.12.1949–04.01.1950"@de ;
+  ns0:hasMetadataDescription [
+    a ns0:MetadataDescription ;
+    dc11:title "Tagebuch 19.12.1949–04.01.1950" ;
+    dc11:identifier "https://edition.onb.ac.at/okopenko/o:oko.tb-19491219-19500104/" ;
+    dc11:contributor "Österreichische Nationalbibliothek"
+  ] ;
+  ns0:hasPreservationDescription [
+    a ns0:PreservationDescription ;
+    ns1:hasIdentifier "http://hdl.handle.net/11741/500.2" ;
+    ns0:hasLicense "https://creativecommons.org/licenses/by-nc/4.0/"
+  ] .
+
